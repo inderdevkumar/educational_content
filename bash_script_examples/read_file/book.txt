@@ -1,0 +1,2 @@
+You can read any file line by line in bash by using loop. Create a file named, ‘read_file.sh’ and add the following code to read an existing file named, ‘book.txt’.
+Learning Laravel 5
