@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
+#Make all .sh files and .py available in our project  working directory store in a list and than push all in repo
+#Once reboot is done, script should auto check for change and push the new change to repo
 
-git branch
-git checkout master
-git pull
-git rebase master
-git add .
 git status
-git commit --amend -m "my new commit `date` "
-git push origin master
+git add .
+read -p "Enter commit message: " commit_message
+git commit -m "$commit_message"
+BRANCH=$(git describe --contains --all HEAD)
+git pull --rebase origin "$BRANCH"
+git push origin "$BRANCH"
