@@ -8,4 +8,4 @@ https://github.com/awesome-lists/awesome-bash
 Projects to do:
 1. https://www.quora.com/What-are-some-good-bash-scripts-you-have-written-for-yourself
 2. https://tldp.org/LDP/abs/html/sha-bang.html
-
+3. https://www.freecodecamp.org/news/cron-jobs-in-linux/

@@ -1,7 +1,8 @@
 - name: Playbook to create file
-  hosts: inder_inspiron
+  hosts: localhost
   tasks:
   - name: Creating an empty file
     file:
-      command: touch "/tmp/test_ansible.txt"
+      path: "/tmp/test_ansible.txt"
+      state: touch
       
