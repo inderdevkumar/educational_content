@@ -44,4 +44,8 @@ paste this in github gui
 #In case u get error while pushing to master
 git push -f origin master
 
-#IF failing with
+#IF failing with remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+CHeck in this doc:
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+
+git rm --cached path_of_large_file
