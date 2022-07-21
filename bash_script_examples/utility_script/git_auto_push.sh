@@ -5,10 +5,10 @@
 
 cd /home/inder/my_data/educational_content
 git_status="$(git -c color.status=always status)"
-echo Before if
+
 if [[ `git status --porcelain` ]]; then
   # Changes
-  echo =====================================
+  echo ===== Starts here ================================
   echo
   echo $git_status
   git status
