@@ -43,3 +43,5 @@ paste this in github gui
 
 #In case u get error while pushing to master
 git push -f origin master
+
+#IF failing with

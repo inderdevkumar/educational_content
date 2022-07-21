@@ -1,0 +1,6 @@
+- name: Playbook to ping 
+  hosts: inder1
+  tasks:
+  - name: To Ping
+    action: ping
+    

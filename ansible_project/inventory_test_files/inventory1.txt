@@ -1,1 +1,6 @@
-inder_inspiron ansible_host=192.168.0.186
+inder1 ansible_host=192.168.0.186 ansible_ssh_pass=kumar0102 ansible_connection=ssh ansible_port=22 ansible_user=inder
+
+inder2 ansible_host=192.168.0.186 ansible_connection=ssh ansible_port=22 ansible_user=inder
+
+#webserver ansible_host=192.168.25.15 ansible_ssh_pass=password ansible_connection=ssh ansible_port=22 ansible_user=root 
+#sqlserver ansible_host=192.168.25.16 ansible_ssh_pass=password ansible_connection=ssh ansible_port=22 ansible_user=root

@@ -1,0 +1,48 @@
+- 
+  name: play1
+  hosts: inder1
+  tasks: 
+    - 
+      name: "Copy module"
+      copy: src=/home/inder/my_data/educational_content/ansible_project/to_do_project.txt dest=/tmp/
+-
+  name: play2
+  hosts: inder1
+  tasks:
+    -
+      name: "to specify the owner and group, and permissions for the specified file"
+      copy: src=/home/inder/my_data/educational_content/ansible_project/readme.txt dest=/tmp/  group=inder mode=0444
+
+- 
+  name: play3
+  hosts: inder1
+  tasks: 
+    - 
+      name: "Lineinfile module"
+      lineinfile: path=/tmp/linein_file_check.txt line="lets see we will have fun"      
+
+-
+  name: play4
+  hosts: inder1
+  tasks:
+    - name: "to run any commands or run any scripts in the remote server"
+      command: touch /tmp/create_file.txt      
+
+- 
+  name: play5
+  hosts: inder1
+  tasks: 
+    - 
+      name: "Script module"
+      script: /home/inder/my_data/educational_content/bash_script_examples/utility_script/git_auto_push.sh
+
+
+- 
+  name: play6
+  hosts: inder1
+  tasks: 
+    - 
+      name: "Service module"
+      service: 
+        name: apache2
+        state: started #stopped      

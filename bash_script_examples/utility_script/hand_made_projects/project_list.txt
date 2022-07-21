@@ -1,0 +1,20 @@
+1] You must have seen the volume change notification in Ubuntu-Unity - how there is a progress bar which keeps on updating as volume changes(there is only one notification balloon of volume at a time). When you use a bare window-manager you don't get these eye-candies. So I used a patched libnotify to implement a similar volume change notification with a progress bar when I was using compiz as a standalone window-manager. Same for brightness notification.
+2] I used a simple for loop script to download all the pictures in a comic book - a simple wget loop - 2 minutes and all the pictures in a folder downloaded automatically.
+3] Recently I used 'scrot' a cmd line screenshot manager to make a cron job at 15 seconds interval to spy what a person did on my laptop. I haven't got an opportunity yet to test it - but developing it was fun. I now have my own very basic spying software.
+
+Linux cli tools like find, wget, sed etc. are immensely powerful & feature-rich. Learn them. Consider these -
+1] A single command to download all the .pdf files from a course's website(college faculty's) - used wget.
+2] A single command to find all the font files from 150+ directories - move them to a new dierctory & copy them to /usr/share/fonts. I needed this recently when I installed google-fonts from Github - used find & xargs.
+
+Beside these there are many more. Check out this website -> http://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html
+
+What I want to say is find a problem/repetitive task & implement/automate it using the cli tools & shell scripts. It's fun, you learn a lot, get the job done & can personalize & customize it indefinitely.
+
+=======  2   done ========
+Make a bash script that can ping to your local ip address
+The result of the ping command should be captured and test for success or failure
+SUCCESS - the server name shows in GREEN and display ALIVE (also in GREEN)
+FAILURE - the server name shows in RED and display DEAD (also in RED)
+=================
+
+ref: https://www.quora.com/What-are-some-good-shell-scripting-projects-for-beginners

@@ -5,8 +5,10 @@
 
 cd /home/inder/my_data/educational_content
 git_status="$(git -c color.status=always status)"
+echo Before if
 if [[ `git status --porcelain` ]]; then
   # Changes
+  echo Inside if
   echo $git_status
   git status
   git add .
@@ -20,3 +22,5 @@ else
   echo $git_status
   echo "No Changes Found"
 fi
+
+echo After if

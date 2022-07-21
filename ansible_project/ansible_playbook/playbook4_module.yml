@@ -1,0 +1,66 @@
+- 
+  name: play1
+  hosts: webserver1
+  tasks: 
+    - 
+      name: "Copy module"
+      copy: src=test.yml dest=/tmp/
+-
+  name: play2
+  hosts: webserver1
+  tasks:
+    -
+      name: "to specify the owner and group, and permissions for the specified file"
+      copy: src=test.yml dest=/tmp/ owner=gaurav group=gaurav mode=0644
+
+- 
+  name: play3
+  hosts: webserver1
+  tasks: 
+    - 
+      name: "Lineinfile module"
+      lineinfile: path=/tmp/test.txt line="gaurav"      
+
+-
+  name: play4
+  hosts: webserver1
+  tasks:
+    - name: "to run any commands or run any scripts in the remote server"
+      command: touch /tmp/test.txt      
+
+- 
+  name: play5
+  hosts: webserver1
+  tasks: 
+    - 
+      name: "Script module"
+      script: testScript.sh Gaurav
+
+
+- 
+  name: play6
+  hosts: webserver1
+  tasks: 
+    - 
+      name: "Service module"
+      service: 
+        name: apache2
+        state: started #stopped      
+- 
+  name: play7
+  hosts: webserver1
+  tasks: 
+    - name: "Package management module"
+      dnf: 
+        name:
+          - httpd
+          - mariadb-server
+      state: latest      
+
+- 
+  name: play8
+  hosts: webserver1
+  tasks: 
+    - 
+      name: "User module"
+      user: name="mytestUser" state=present password="$6$A0JtS1g5vFZ$O/WkOD/ZyHTLm5Yn5HT213gLSwTzxLTT/V4D2ly0JYcdRvhDQV.HAMsiVHkYj5WhHdaaU/WwMDxgTW0pHQzrF0"       
