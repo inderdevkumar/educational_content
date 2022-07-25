@@ -14,7 +14,7 @@ if [[ `git status --porcelain` ]]; then
   git status
   git add .
   #read -p "Enter commit message: " commit_message
-  git commit -m "$`date`"
+  git commit --amend "`date`"
   BRANCH=$(git describe --contains --all HEAD)
   git pull --rebase origin "$BRANCH"
   git push origin "$BRANCH"

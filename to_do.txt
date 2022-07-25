@@ -1,0 +1,7 @@
+2022-07-22
+
+1. CReate cron job for dailiy running the script
+2. Create VM Machine for testing dev ops 
+3. Follow Ansible
+======================================
+

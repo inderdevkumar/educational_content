@@ -1,0 +1,7 @@
+- 
+  name: File which includes both var and task yml.
+  hosts: webserver1
+  vars_files: 
+      - playbook8_vars.yml
+  tasks: 
+    - include: playbook8_tasks.yml
