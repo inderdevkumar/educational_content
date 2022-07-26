@@ -1,0 +1,9 @@
+---
+# tasks file for php
+#
+- 
+      name: 'task 1'
+      command: touch /tmp/php_play_1_task_1.txt
+- 
+      name: 'task 2'
+      command: touch /tmp/php_play_1_task_2.tx

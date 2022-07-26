@@ -1,6 +1,6 @@
 - 
-  name: this is our first play.
-  hosts: webserver1
+  name: Modularization
+  hosts: inder1
   vars: 
     var1: var1
     var2: var2
@@ -13,6 +13,9 @@
     var9: var9
     var10: var10
   tasks: 
+    - 
+      name: 'make dir large '
+      command: mkdir /tmp/large/
     - 
       name: 'task 1'
       command: touch /tmp/large/{{ var1 }}.txt

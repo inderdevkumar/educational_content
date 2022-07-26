@@ -9,3 +9,6 @@ ansible inder* -m ping -i inventory_test_files/inventory1.txt  --ask-pass
 
 #For playbook
 ansible-playbook ansible_playbook/playbook1.yml -i inventory_test_files/inventory2.txt
+
+#For initalizing roles
+ansible-galaxy init dummy

@@ -1,0 +1,10 @@
+---
+# tasks file for sql
+
+-
+      name: 'task 1'
+      command: touch /tmp/sql_play_3_task_1.txt
+-
+      name: 'task 2'
+      command: touch /tmp/sql_play_3_task_2.txt
+

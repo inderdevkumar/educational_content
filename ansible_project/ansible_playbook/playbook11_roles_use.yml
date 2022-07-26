@@ -1,0 +1,6 @@
+- 
+  name: this is our 1st play.
+  hosts: virtual_ubunto1
+  roles: 
+    - /home/inder/my_data/educational_content/ansible_project/roles/web
+

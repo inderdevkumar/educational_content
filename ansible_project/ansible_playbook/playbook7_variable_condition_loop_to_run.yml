@@ -1,6 +1,6 @@
 -
   name: play1 with variable
-  hosts: virtual_ubunto1
+  hosts: inder1
   vars:
     file_name: variable
   tasks: 
@@ -73,7 +73,7 @@
 
 - 
   name: play6 with loop
-  hosts: virtual_ubunto1
+  hosts: inder1
   vars:
     pkg:
      - play6_loop_count1.txt
@@ -83,3 +83,19 @@
       name: 'CReating txt files with loop'
       command: touch /tmp/{{ item }}
       with_items: "{{ pkg }}"
+
+- 
+  name: play7 with loop and condition
+  hosts: inder1
+  vars:
+    count: 5
+
+    pkg:
+     - play7_loop_count1.txt
+     - play7_loop_count2.txt
+  tasks:
+    - 
+      name: 'CReating txt files with loop'
+      command: touch /tmp/{{ item }}
+      with_items: "{{ pkg }}"
+      when: count == 5

@@ -1,4 +1,7 @@
 - 
+ name: 'CReating task folder'
+ command: mkdir /tmp/task
+- 
  name: 'task 1'
  command: touch /tmp/task/{{ var1 }}.txt
 - 
@@ -28,4 +31,3 @@
 - 
  name: 'task 10'
  command: touch /tmp/task/{{ var10 }}.txt
-

@@ -1,0 +1,30 @@
+- 
+  name: this is our 1st play for creating files of php*.
+  hosts: inder1
+  tasks: 
+    - 
+      name: 'task 1'
+      command: touch /tmp/php_play_1_task_1.txt
+    - 
+      name: 'task 2'
+      command: touch /tmp/php_play_1_task_2.txt
+- 
+  name: this is our 2nd play for creating files of web*
+  hosts: inder1
+  tasks:
+    - 
+      name: 'task 1'
+      command: touch /tmp/web_play_2_task_1.txt
+    - 
+      name: 'task 2'
+      command: touch /tmp/web_play_2_task_2.txt
+- 
+  name: this is our 3rd play for creating files of sql*
+  hosts: inder1
+  tasks:
+    - 
+      name: 'task 1'
+      command: touch /tmp/sql_play_3_task_1.txt
+    - 
+      name: 'task 2'
+      command: touch /tmp/sql_play_3_task_2.txt

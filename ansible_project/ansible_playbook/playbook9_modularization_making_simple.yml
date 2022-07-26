@@ -1,0 +1,7 @@
+- 
+  name: Modularization simple playbook. Storing variable in varaible.yml and tasks in task.yml
+  hosts: inder1
+  vars_files:
+          - /home/inder/my_data/educational_content/ansible_project/variables/variable1.yml 
+  tasks:
+          - include: /home/inder/my_data/educational_content/ansible_project/tasks/task1.yml
