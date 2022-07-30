@@ -18,3 +18,15 @@ FAILURE - the server name shows in RED and display DEAD (also in RED)
 =================
 
 ref: https://www.quora.com/What-are-some-good-shell-scripting-projects-for-beginners
+
+==========
+
+1. I like to run git push command automatically just after my machine is restarted
+2. I like to have notification in my PC for memory left in my PC amd the specification of sysytem just after restart of my pc.
+   Memory left
+   RAM Having
+   System Model
+3. Create Notification of memory used in educational_content folder. It should be less than 80MB. 
+    If Greater than 80mb show message "Delete unwanted files else will create problem in pushing to git" in Red colour
+    If <80mb but greater than 50mb show message "Warning " in Yellow colour
+    If <50mb than show message "No Action required" in Green colour
