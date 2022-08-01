@@ -23,10 +23,14 @@ ref: https://www.quora.com/What-are-some-good-shell-scripting-projects-for-begin
 
 1. I like to run git push command automatically just after my machine is restarted
 2. I like to have notification in my PC for memory left in my PC amd the specification of sysytem just after restart of my pc.
-   Memory left
+   Memory left-> If memory is <= 200G message "Delete unwanted files else will create problem in pushing to git" in Red colour
+    If >200G but  <=400G show message "Warning " in Yellow colour
+    If >400 than show message "No Action required" in Green colour
    RAM Having
    System Model
 3. Create Notification of memory used in educational_content folder. It should be less than 80MB. 
-    If Greater than 80mb show message "Delete unwanted files else will create problem in pushing to git" in Red colour
+    If Greater than 80mb show message "Delete unwanted files else will create problem in pushing to git" in Red colour.
+    Also show the files/folders having size greater than 80mb
     If <80mb but greater than 50mb show message "Warning " in Yellow colour
+    Also show the files/folders meeting this condition.
     If <50mb than show message "No Action required" in Green colour
