@@ -1,0 +1,15 @@
+
+
+==================================================================================
+1. Create Jenkin job to run bash script to ssh all 2 nodes(VM) and create file
+2. Create Jenkin job to run bash script to ssh all 2 nodes(VM) and create file but using user paramters
+3. Create Jenkin job to run ansible to ssh all 2 nodes and create file
+4. Create Jenkin job to run ansible to ssh all 2 nodes and create file but using user paramters
+5. Create Jenkin job to run bash script from git
+6. Create multi Jenkin jobs to run them one after the another in pipeline
+7. Create multi Jenkin jobs to run them prallel.
+8. Create Jenkin job to define CI/CD pipeline.(push to git-> jenkins should detect the change and and run the job automatically)
+9. Create Jenkin job to shedule it 
+10. Create Jenkin job to store the report in jenkins GUI workspace
+==================================================================================
+link: https://www.tutorialworks.com/devops-project-ideas/#practical-devops-project-ideas
