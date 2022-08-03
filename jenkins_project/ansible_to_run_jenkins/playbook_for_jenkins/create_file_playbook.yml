@@ -1,0 +1,8 @@
+- name: Playbook to create file
+  hosts: localhost
+  tasks:
+  - name: Creating an empty file
+    file:
+      path: "/tmp/test_ansible.txt"
+      state: touch
+      
