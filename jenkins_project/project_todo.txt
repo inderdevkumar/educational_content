@@ -11,5 +11,6 @@
 8. Create Jenkin job to define CI/CD pipeline.(push to git-> jenkins should detect the change and and run the job automatically)
 9. Create Jenkin job to shedule it 
 10. Create Jenkin job to store the report in jenkins GUI workspace
+11. CReate Jenkin job to send notification/email after job run is complete
 ==================================================================================
 link: https://www.tutorialworks.com/devops-project-ideas/#practical-devops-project-ideas
