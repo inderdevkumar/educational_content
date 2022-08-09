@@ -10,8 +10,9 @@ echo i am running with user
 whoami
 echo Running with sudo
 
-sudo -S sed -i -e "s/hostname1/$host_name/g" $home_path/playbook_for_jenkins/$ansible_playbook.yml
-kumar0102
+#sudo sed -i -e "s/hostname1/$host_name/g" $home_path/playbook_for_jenkins/$ansible_playbook.yml
+sudo sed -i -e "s/hostname1/inder1/g" $home_path/playbook_for_jenkins/$ansible_playbook.yml
+#kumar0102
 
 
 ansible-playbook $home_path/playbook_for_jenkins/$ansible_playbook.yml -i $home_path/inventory_for_jenkins/inventory4.yml

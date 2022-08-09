@@ -1,13 +1,12 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mdeleted: jenkins_project/ansible_to_run_jenkins/bash_for_ansible/.create_file_with_host_parameter_in_vm_ansible.sh.swp[m [31mmodified: jenkins_project/ansible_to_run_jenkins/bash_for_ansible/create_file_with_host_parameter_in_vm_ansible.sh[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: jenkins_project/ansible_to_run_jenkins/bash_for_ansible/create_file_with_host_parameter_in_vm_ansible.sh[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	deleted:    jenkins_project/ansible_to_run_jenkins/bash_for_ansible/.create_file_with_host_parameter_in_vm_ansible.sh.swp
 	modified:   jenkins_project/ansible_to_run_jenkins/bash_for_ansible/create_file_with_host_parameter_in_vm_ansible.sh
 
 no changes added to commit (use "git add" and/or "git commit -a")
