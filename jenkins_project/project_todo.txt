@@ -5,6 +5,9 @@
 2. Create Jenkin job to run bash script to ssh all 2 nodes(VM) and create file but using user paramters
 3. Create Jenkin job to run ansible to ssh all 2 nodes and create file
 4. Create Jenkin job to run ansible to ssh all 2 nodes and create file but using user paramters
+	extra work to do:
+		a. Create Jenkin job to run ansible to ssh all 2 nodes and create file but using user paramters without bash
+		b. Create Jenkin job to run ansible to ssh local machine and create file but with the involement of git
 5. Create Jenkin job to run bash script from git
 6. Create multi Jenkin jobs to run them one after the another in pipeline
 7. Create multi Jenkin jobs to run them prallel.
