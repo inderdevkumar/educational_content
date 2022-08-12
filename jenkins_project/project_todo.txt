@@ -15,5 +15,6 @@
 9. Create Jenkin job to shedule it 
 10. Create Jenkin job to store the report in jenkins GUI workspace
 11. CReate Jenkin job to send notification/email after job run is complete
+12.Store  the backup of all jenkin jobs
 ==================================================================================
 link: https://www.tutorialworks.com/devops-project-ideas/#practical-devops-project-ideas
