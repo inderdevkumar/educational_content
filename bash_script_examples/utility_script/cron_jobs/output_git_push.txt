@@ -1,6 +1,6 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mjenkins_project/git_to_run_jenkins/inventory_for_jenkins/[m [31mjenkins_project/git_to_run_jenkins/playbook_for_jenkins/[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mbash_script_examples/condition_project/.example2.sh.swp[m [31mplan_schedule_project/[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -11,7 +11,7 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	jenkins_project/git_to_run_jenkins/inventory_for_jenkins/
-	jenkins_project/git_to_run_jenkins/playbook_for_jenkins/
+	bash_script_examples/condition_project/.example2.sh.swp
+	plan_schedule_project/
 
 no changes added to commit (use "git add" and/or "git commit -a")
