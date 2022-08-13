@@ -1,18 +1,17 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: jenkins_project/project_todo.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mjenkins_project/git_to_run_jenkins/[m [31mjenkins_project/qna.txt[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mjenkins_project/git_to_run_jenkins/inventory_for_jenkins/[m [31mjenkins_project/git_to_run_jenkins/playbook_for_jenkins/[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	modified:   jenkins_project/project_todo.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	jenkins_project/git_to_run_jenkins/
-	jenkins_project/qna.txt
+	jenkins_project/git_to_run_jenkins/inventory_for_jenkins/
+	jenkins_project/git_to_run_jenkins/playbook_for_jenkins/
 
 no changes added to commit (use "git add" and/or "git commit -a")

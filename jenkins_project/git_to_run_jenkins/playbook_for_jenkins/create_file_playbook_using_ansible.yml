@@ -1,0 +1,11 @@
+- name: Playbook to create file
+  hosts: "{{ name }}"
+  vars: 
+    - name: "John"
+  
+  tasks:
+  - name: Creating an empty file
+    file:
+      path: "/tmp/{{name}}.txt"
+      state: touch
+      
