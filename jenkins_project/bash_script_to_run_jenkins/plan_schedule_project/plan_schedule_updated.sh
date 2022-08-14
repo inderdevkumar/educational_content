@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+ Red=$'\e[1;31m'
+ Green=$'\e[1;32m'
+ Yellow=$'\e[1;33m'
+
 train_name_del="BBS Rajdhani"
 train_num_del="12345"
 train_name_bbs_kqr="Purushottam Express"
@@ -28,25 +33,24 @@ echo "Say Yes if train is booked else No"
 read del_book
 
 if [[  ( $del_book  == "Yes" || $del_book == "yes")  ]]; then
-echo "Please enter cnf if train seat is confirmed Else no if not confirmed "
-read cnf_status_del
-     if [[  ( $cnf_status_del  == "cnf" )  ]]; then
-     echo "Please Enter the Train Boggy with Seat Number : "
-     read del_kqr_seat_num
+echo "Please enter Train Boggy with seat Number:   "
+read del_kqr_seat_num
+     if [[  ( $del_kqr_seat_num  == "*wl*" || $del_kqr_seat_num == "WL" )  ]]; then
+     echo Your Train is booked with Waiting List $del_kqr_seat_num 
+     
+
+     echo Your Train name $train_name_del with train number $train_num_del is booked with seat $del_kqr_seat_num
+     echo And your  journey is from Delhi to Koderma on 23rd Nov 2022.
+
+     else
+    
 
      echo Your Train name $train_name_del with train number $train_num_del is booked with seat $del_kqr_seat_num
      echo journey is from Delhi to Koderma on 23rd Nov 2022.
 
-     else
-     echo "Please enter the current status of seat booked "
-     read del_wl_status
-
-     echo Your Train name $train_name_del with train number $train_num_del is booked with seat $del_wl_status
-     echo journey is from Delhi to Koderma on 23rd Nov 2022.
-
      fi     
 else	     
-echo "Train is not booked yet..."
+echo "$Red Train is not booked yet...Book it soon !!!"
 fi     
 
 echo "***************      Next Journey Starts Here    ****************"
@@ -57,11 +61,28 @@ echo "Say Yes if train is booked else No"
 read bbs_kqr_book
 
 if [[  ( $bbs_kqr_book  == "Yes" || $bbs_kqr_book  == "yes")  ]]; then
-echo "Please enter cnf if train seat is confirmed Else no if not confirmed "
-read cnf_status_bbs_kqr
+
+
 
 echo "Please Enter the Train Boggy with Seat Number : "
 read bbs_kqr_seat_num
+
+if [[  ( $bbs_kqr_seat_num  == "*wl*" || $bbs_kqr_seat_num == "WL" )  ]]; then
+     echo Your Train is booked with Waiting List $bbs_kqr_seat_num
+
+
+     echo Your Train name $train_name_del with train number $train_num_del is booked with seat $bbs_kqr_seat_num
+     echo And your  journey is from BBSR to Koderma on 23rd Nov 2022.
+
+     else
+
+
+     echo Your Train name $train_name_del with train number $train_num_del is booked with seat $bbs_kqr_seat_num
+     echo journey is from BBSR  to Koderma on 23rd Nov 2022.
+
+     fi
+
+
 else
 echo "Train is not booked yet..."
 fi
