@@ -1,0 +1,9 @@
+./our_trip.sh: line 35: ((: month=10#12-08: value too great for base (error token is "08")
+solution: 08 is considered as octat. So to avaoid this we have to #10 to make it treated as decimal like below:
+	(( month=10#$month_num_journey_date-10#$month_num_cur_date ))
+
+
+./our_trip.sh: line 29: ${${array_date_for_each_journey[i]}:3:2}: bad substitution
+solution: Here tried to extract substring and getting above error.
+	  Use syntax as below: ${array_date_for_each_journey[i]:3:2}
+
