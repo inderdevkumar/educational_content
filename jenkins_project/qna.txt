@@ -1,0 +1,9 @@
+1. How to configure for sending email using jenkins?
+	Open: Manage Jenkins -> Configure System -> E-mail Notification -> click on TLS checkbox 
+	link to follow: https://dwops.com/courses/beginners-jenkins-tutorial-basics-freestyle-projects-ci-cd-pipeline/lesson/jenkins-job-to-send-email-notification-on-every-execution/
+
+2. Hot to create pipeline one after another?
+	cretae couple of jobs with freestyle and than call other job post-build actions
+
+3. How to create jobs running parallely in jenkins?
+	install multijob plugin. Create couple of jobs and in build section call the jobs u want to run parallely

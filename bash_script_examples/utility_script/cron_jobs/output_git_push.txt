@@ -1,15 +1,12 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mdeleted: jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/our_trip.sh[m [31mdeleted: jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/plan_schedule.sh[m [31mdeleted: jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/plan_schedule_updated.sh[m [31mdeleted: jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/to_do.txt[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: jenkins_project/qna.txt[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	deleted:    jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/our_trip.sh
-	deleted:    jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/plan_schedule.sh
-	deleted:    jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/plan_schedule_updated.sh
-	deleted:    jenkins_project/bash_script_to_run_jenkins/plan_schedule_project/to_do.txt
+	modified:   jenkins_project/qna.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
