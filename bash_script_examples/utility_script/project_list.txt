@@ -34,3 +34,12 @@ ref: https://www.quora.com/What-are-some-good-shell-scripting-projects-for-begin
     If <80mb but greater than 50mb show message "Warning " in Yellow colour
     Also show the files/folders meeting this condition.
     If <50mb than show message "No Action required" in Green colour
+
+================
+1. Create a script that will monitor whether apache2 service is on or not
+	if on find its process id
+	if off than make it on and find the process id
+
+2. Create a script that will use webpage from https://www.tooplate.com and broadcast its own similar webpage.
+
+Make a note: Both should run on virtual machine and not the local machine(we have m/m issue in localhost)
