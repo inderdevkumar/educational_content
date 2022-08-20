@@ -1,4 +1,16 @@
 #!/usr/bin/env bash
+
+#========== WE can do from 3 approaches
+#1. FRom bash-> Using EOF-> Does not work
+#               Using Copy Paste-> Means, create a script that can be run in standalone machine than working script shoould be copied 
+#                                  to VMs /tmp folder and there just execute the script. After completion just remove the script 
+#                                  from both VMs /tmp folder
+#2. From ansible
+#3. From Jenkins
+#==========
+
+
+
 all_vms_ip=(192.168.0.36 192.168.0.237)
 
 for item in "${all_vms_ip[@]}"
@@ -8,7 +20,7 @@ do
 	echo SSH to $item
 	echo ==============
 	password=`cat sudopasswordfile`
-	sshpass -p  $password ssh -o StrictHostKeyChecking=no virtual_project@$item << EOF
+	sshpass -p  $password ssh -o StrictHostKeyChecking=no virtual_project@$item << HERE
 	
 	echo Check if Apache2 is installed or not
 	
@@ -40,7 +52,7 @@ do
 		
 	fi
 
-EOF
+HERE
 done
 
 

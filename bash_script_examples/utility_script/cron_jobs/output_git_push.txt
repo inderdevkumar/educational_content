@@ -1,17 +1,13 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: bash_script_examples/utility_script/project_list.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mbash_script_examples/utility_script/hand_made_projects/monitor_any_package/[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: bash_script_examples/utility_script/hand_made_projects/monitor_any_package/monitor_apache2.sh[m [31mmodified: bash_script_examples/utility_script/hand_made_projects/monitor_any_package/test_sudo_using_bash_in_remote.sh[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	modified:   bash_script_examples/utility_script/project_list.txt
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	bash_script_examples/utility_script/hand_made_projects/monitor_any_package/
+	modified:   bash_script_examples/utility_script/hand_made_projects/monitor_any_package/monitor_apache2.sh
+	modified:   bash_script_examples/utility_script/hand_made_projects/monitor_any_package/test_sudo_using_bash_in_remote.sh
 
 no changes added to commit (use "git add" and/or "git commit -a")
