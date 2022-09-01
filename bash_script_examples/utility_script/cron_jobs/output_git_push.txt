@@ -1,11 +1,16 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mbash_script_examples/utility_script/hand_made_projects/to_find_any_folder/[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	bash_script_examples/utility_script/hand_made_projects/to_find_any_folder/
 
 no changes added to commit (use "git add" and/or "git commit -a")
