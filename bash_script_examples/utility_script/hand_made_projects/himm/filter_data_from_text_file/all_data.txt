@@ -1,0 +1,7 @@
+name amount date
+inder 3000 27-09-2022
+anand 2000 27-09-2022
+ranjan 300 26-09-2022
+himadri 200 25-09-2022
+priya 3000 24-09-2022
+sweta 200 27-09-2022

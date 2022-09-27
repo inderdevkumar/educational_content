@@ -1,0 +1,5 @@
+name amount
+inder 3000
+anand 2000
+ranjan 300
+sweta 200
