@@ -1,19 +1,18 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/send_email_date/date_parse.sh[m [31mdeleted: bash_script_examples/user_pw_project.sh[m [31mdeleted: bash_script_examples/user_pw_project/user_pw_project.sh[m [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mbash_script_examples/send_email_date/.date_parse.sh.swp[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mdeleted: bash_script_examples/send_email_date/.date_parse.sh.swp[m [31mmodified: bash_script_examples/send_email_date/date_parse.sh[m [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mbash_script_examples/send_email_date/test_time_diff.sh[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
+	deleted:    bash_script_examples/send_email_date/.date_parse.sh.swp
 	modified:   bash_script_examples/send_email_date/date_parse.sh
-	deleted:    bash_script_examples/user_pw_project.sh
-	deleted:    bash_script_examples/user_pw_project/user_pw_project.sh
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	bash_script_examples/send_email_date/.date_parse.sh.swp
+	bash_script_examples/send_email_date/test_time_diff.sh
 
 no changes added to commit (use "git add" and/or "git commit -a")
