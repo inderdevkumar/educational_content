@@ -31,9 +31,16 @@ echo "Current Time is: $Hour2:$Minute2:$Second2"
 #time1= 14:20:30
 #time2= 15:05:05
 
+# Below operation will not working with time from 01 to 09 hrs/min/sec that is why bc is used just below this
+: '
 (( time1=(Hour*60*60)+(Minute*60)+(Second) ))
 (( time2=(Hour2*60*60)+(Minute2*60)+(Second2) ))
 (( time_diff=time2-time1 ))
+'
+
+time1=$(bc <<< "((${Hour}*60*60)+(${Minute}*60)+(${Second}))")
+time2=$(bc <<< "((${Hour2}*60*60)+(${Minute2}*60)+(${Second2}))")
+time_diff=$(bc <<< "${time2}-${time1}")
 
 Hour_diff=$(bc <<< "${time_diff}/3600")
 Minute_diff=$(bc <<< "(${time_diff}%3600)/60")
