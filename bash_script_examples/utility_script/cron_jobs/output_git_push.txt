@@ -9,3 +9,7 @@ Changes not staged for commit:
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+On branch master
+nothing to commit, working tree clean
+
+============== pushing done =======================

@@ -1,6 +1,10 @@
 
 #!/bin/bash
 
+convertsecs()
+{
+	echo U are in function
+
 Year=`date +%Y`
 Month=`date +%m`
 Day=`date +%d`
@@ -53,3 +57,7 @@ echo Time taken to execute the program is:
 printf "%02d:%02d:%02d\n" $Hour_diff $Minute_diff $Second_diff
 echo
 
+}
+
+echo Calling function now
+convertsecs
