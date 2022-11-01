@@ -1,6 +1,6 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m It took 2.53 seconds to enumerate untracked files. 'status -uno' may speed it up, but you have to be careful not to forget to add new files yourself (see 'git help status'). no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
