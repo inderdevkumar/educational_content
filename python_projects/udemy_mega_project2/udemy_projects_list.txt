@@ -1,0 +1,47 @@
+=================================
+The instructor-led apps are:
+================================
+
+1. Todo List App
+
+2. Portfolio Website
+
+3. PDF Generator
+
+4. Creating PDF Invoices from Excel Files
+
+5. Sending News by Email Every Morning
+
+6. Weather API
+
+7. Weather Forecast Web/Data App
+
+8. Book Sentiment Analysis
+
+9. Email Webcam Object Detection
+
+10. Web Scraping Musical Events
+
+11. Hotel Booking App
+
+====================================
+The independent student apps are:
+==================================
+
+1. Company Website
+
+2. Converting Text Files to PDF
+
+3. Nasa Image of the Day Web App
+
+4. Translator API
+
+5. Analyzing Wine Tasting Datasets
+
+6. Diary to Record your Mood
+
+7. Timed Webcam
+
+8. Web Scraping
+
+9. Shopping App with OOP

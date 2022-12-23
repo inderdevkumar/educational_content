@@ -1,5 +1,5 @@
-1eat
-2dance
-1.  sleep
-1.  eat
-2.  play
+1.  sleep after 10min
+2.  Study for 20 min 23/12/2022 09:54:00
+3.  watch movie 23/12/2022 14:25:46
+4.  dance lungii 23/12/2022 14:36:59
+5.  danagg style 23/12/2022 14:37:17
