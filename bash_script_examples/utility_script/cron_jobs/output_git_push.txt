@@ -1,22 +1,17 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: python_projects/udemy_mega_project2/.~lock.all_theory.odt#[m [31mmodified: python_projects/udemy_mega_project2/all_theory.odt[m [31mdeleted: python_projects/udemy_mega_project2/day1/2022-05-05_13-06-16-797d000cdd2032c849b0dfbd9300637a.jpeg[m [31mdeleted: python_projects/udemy_mega_project2/day1/2022-05-06_13-45-16-b27fdae641cec70dbb5d679a13274168.jpeg[m [31mdeleted: python_projects/udemy_mega_project2/day1/2022-05-08_16-35-49-656d6fc50deb69c53f5e08d93ce86a56.jpeg[m [31mdeleted: python_projects/udemy_mega_project2/day1/2022-05-08_18-22-44-c82cf56636b53ccbcdbaf21bca57c5c7.jpeg[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mpython_projects/udemy_mega_project2/day1/from_lecture/[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mdeleted: python_projects/udemy_mega_project2/.~lock.all_theory.odt#[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mpython_projects/project_just_for_fun/upwork/[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	modified:   python_projects/udemy_mega_project2/.~lock.all_theory.odt#
-	modified:   python_projects/udemy_mega_project2/all_theory.odt
-	deleted:    python_projects/udemy_mega_project2/day1/2022-05-05_13-06-16-797d000cdd2032c849b0dfbd9300637a.jpeg
-	deleted:    python_projects/udemy_mega_project2/day1/2022-05-06_13-45-16-b27fdae641cec70dbb5d679a13274168.jpeg
-	deleted:    python_projects/udemy_mega_project2/day1/2022-05-08_16-35-49-656d6fc50deb69c53f5e08d93ce86a56.jpeg
-	deleted:    python_projects/udemy_mega_project2/day1/2022-05-08_18-22-44-c82cf56636b53ccbcdbaf21bca57c5c7.jpeg
+	deleted:    python_projects/udemy_mega_project2/.~lock.all_theory.odt#
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	python_projects/udemy_mega_project2/day1/from_lecture/
+	python_projects/project_just_for_fun/upwork/
 
 no changes added to commit (use "git add" and/or "git commit -a")

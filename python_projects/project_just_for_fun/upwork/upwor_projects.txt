@@ -1,0 +1,10 @@
+====== 1 =====
+I wan to start with a very simple utility that picks up a csv file which can be loaded in as multiple columns.
+One of the columns has a multi word description,this column is called xxxxxx, this needs to be split in to key words, the rules for this are ;
+1 enter a parameter,  numeric , minlegnth
+2 from the description in xxxxx , drop any words that have less characters than minlegnth
+3 the remaining words become keyword1, keyword2 and so on and are added to the row
+4 at the beginning of each row add a new column and insert a sequence number and a second column called code but blank
+5 save into a new file, if this is an excel user can rename and save the file manually
+
+=============
