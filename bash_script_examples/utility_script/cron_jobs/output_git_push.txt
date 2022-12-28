@@ -20,3 +20,17 @@ Untracked files:
 	python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/
 
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 9777f3d] $Mi 28. Dez 15:45:51 CET 2022
+ 12 files changed, 120 insertions(+), 4 deletions(-)
+ delete mode 100644 python_projects/project_just_for_fun/upwork/.~lock.expenditure_list.xlsx#
+ rewrite python_projects/project_just_for_fun/upwork/expenditure_list.xlsx (87%)
+ create mode 100644 python_projects/udemy_mega_project2/.~lock.all_theory.odt#
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/6_day_homework.py
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/7_day_homework.py
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/day6/a.txt
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/day6/b.txt
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/day6/c.txt
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/day6/essay.txt
+ create mode 100644 python_projects/udemy_mega_project2/day1/from_lecture/exercises/resources/day6/members.txt
+
+============== pushing done =======================
