@@ -1,0 +1,10 @@
+You can use the following syntax to count NaN values in Pandas DataFrame:
+
+(1) Count NaN values under a single DataFrame column:
+
+df['column name'].isna().sum()
+
+(2) Count NaN values under an entire DataFrame:
+
+df.isna().sum().sum()
+
