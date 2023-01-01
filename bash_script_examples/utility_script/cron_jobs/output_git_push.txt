@@ -1,23 +1,31 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mpython_projects/interview_programs/14_NaN_in_n_rows.py[m [31mpython_projects/interview_programs/15_count_NaN_in_each_columns.py[m [31mpython_projects/interview_programs/16_read_file.py[m [31mpython_projects/interview_programs/17_lambda_add_10.py[m [31mpython_projects/interview_programs/18_plot_x_y_graph_basic.py[m [31mpython_projects/interview_programs/19_bar_plot_basic.py[m [31mpython_projects/interview_programs/file_operation/[m [31mpython_projects/interview_programs/filter_dataframe.py[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mdeleted: python_projects/interview_programs/14_NaN_in_n_rows.py[m [31mdeleted: python_projects/interview_programs/15_count_NaN_in_each_columns.py[m [31mdeleted: python_projects/interview_programs/16_read_file.py[m [31mdeleted: python_projects/interview_programs/17_lambda_add_10.py[m [31mdeleted: python_projects/interview_programs/18_plot_x_y_graph_basic.py[m [31mdeleted: python_projects/interview_programs/19_bar_plot_basic.py[m [31mdeleted: python_projects/interview_programs/class_with_human.py[m [31mdeleted: python_projects/interview_programs/create_df_from_list_dict.py[m [31mdeleted: python_projects/interview_programs/file_operation/read_file_input.txt[m [31mdeleted: python_projects/interview_programs/filter_dataframe.py[m [31mdeleted: python_projects/interview_programs/inheritence.py[m [31mdeleted: python_projects/interview_programs/numpy_1d_2d_3d.py[m [31mdeleted: python_projects/interview_programs/numpy_5_5_array.py[m [31mdeleted: python_projects/interview_programs/numpy_array_get_n_larget_numbers.py[m [31mdeleted: python_projects/interview_programs/numpy_sum_of_array1_array2.py[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mpython_projects/interview_programs/python/[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
+	deleted:    python_projects/interview_programs/14_NaN_in_n_rows.py
+	deleted:    python_projects/interview_programs/15_count_NaN_in_each_columns.py
+	deleted:    python_projects/interview_programs/16_read_file.py
+	deleted:    python_projects/interview_programs/17_lambda_add_10.py
+	deleted:    python_projects/interview_programs/18_plot_x_y_graph_basic.py
+	deleted:    python_projects/interview_programs/19_bar_plot_basic.py
+	deleted:    python_projects/interview_programs/class_with_human.py
+	deleted:    python_projects/interview_programs/create_df_from_list_dict.py
+	deleted:    python_projects/interview_programs/file_operation/read_file_input.txt
+	deleted:    python_projects/interview_programs/filter_dataframe.py
+	deleted:    python_projects/interview_programs/inheritence.py
+	deleted:    python_projects/interview_programs/numpy_1d_2d_3d.py
+	deleted:    python_projects/interview_programs/numpy_5_5_array.py
+	deleted:    python_projects/interview_programs/numpy_array_get_n_larget_numbers.py
+	deleted:    python_projects/interview_programs/numpy_sum_of_array1_array2.py
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	python_projects/interview_programs/14_NaN_in_n_rows.py
-	python_projects/interview_programs/15_count_NaN_in_each_columns.py
-	python_projects/interview_programs/16_read_file.py
-	python_projects/interview_programs/17_lambda_add_10.py
-	python_projects/interview_programs/18_plot_x_y_graph_basic.py
-	python_projects/interview_programs/19_bar_plot_basic.py
-	python_projects/interview_programs/file_operation/
-	python_projects/interview_programs/filter_dataframe.py
+	python_projects/interview_programs/python/
 
 no changes added to commit (use "git add" and/or "git commit -a")
