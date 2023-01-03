@@ -1,0 +1,45 @@
+python_dict= {"Devops":["Jenkins", "Python", "Ansible"], "Development": ["Java", "NodeJS", ".net"], "ansible_fact": {"python": "lalala"}}
+
+
+##   JSON   ##   
+
+{
+	"Devops":
+	[
+		"Jenkins", 
+		"Python", 
+		"Ansible"
+	], 
+	
+	"Development": 
+	
+	[
+		"Java", 
+		"NodeJS", 
+		".net"
+	], 
+	
+	"ansible_fact": 
+	{
+		"python": "lalala"
+	}
+	
+}
+
+======  YAML  =========
+
+Devops:
+	- Jenkins 
+        - Python 
+        - Ansible
+        
+        
+Development:
+        - Java 
+        - NodeJS 
+        - .net
+        
+        
+ansible_fact: 
+
+          python: lalala
