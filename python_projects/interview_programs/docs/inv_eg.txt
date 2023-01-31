@@ -1,3 +1,0 @@
-web01 ansible_host=160.48.199.99 ansible_ssh_pass= ansible_ssh= ansible_port= ansible_user=
-
-web01 ansible_host=160.48.199.99 ansible_user=inder ansible_ssh_private_key_file=vprofile-key.pem
