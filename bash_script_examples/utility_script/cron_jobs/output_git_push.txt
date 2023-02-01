@@ -1,21 +1,11 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add/rm <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mdeleted: python_projects/interview_programs/docs/ansble_jenkins_git_sql.odt[m [31mdeleted: python_projects/interview_programs/docs/ansible.odt[m [31mdeleted: python_projects/interview_programs/docs/infotainment(IVI).odt[m [31mdeleted: python_projects/interview_programs/docs/inv_eg.txt[m [31mdeleted: python_projects/interview_programs/docs/linux.odt[m [31mdeleted: python_projects/interview_programs/docs/manual_testing.odt[m [31mdeleted: python_projects/interview_programs/docs/myself.odt[m [31mdeleted: python_projects/interview_programs/docs/playbook_eg.txt[m [31mdeleted: python_projects/interview_programs/docs/python.odt[m [31mdeleted: python_projects/interview_programs/docs/python_bash.odt[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	deleted:    python_projects/interview_programs/docs/ansble_jenkins_git_sql.odt
-	deleted:    python_projects/interview_programs/docs/ansible.odt
-	deleted:    python_projects/interview_programs/docs/infotainment(IVI).odt
-	deleted:    python_projects/interview_programs/docs/inv_eg.txt
-	deleted:    python_projects/interview_programs/docs/linux.odt
-	deleted:    python_projects/interview_programs/docs/manual_testing.odt
-	deleted:    python_projects/interview_programs/docs/myself.odt
-	deleted:    python_projects/interview_programs/docs/playbook_eg.txt
-	deleted:    python_projects/interview_programs/docs/python.odt
-	deleted:    python_projects/interview_programs/docs/python_bash.odt
 
 no changes added to commit (use "git add" and/or "git commit -a")
