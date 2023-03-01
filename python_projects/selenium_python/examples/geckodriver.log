@@ -491,3 +491,409 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1677600512021	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1677600512028	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1677600512029	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600551970	Marionette	INFO	Stopped listening on port 41451
+1677600781032	geckodriver	INFO	Listening on 127.0.0.1:40391
+1677600781846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile5sEhHn"
+1677600788635	Marionette	INFO	Marionette enabled
+1677600788646	Marionette	INFO	Listening on port 33591
+Read port: 33591
+Read port: 33591
+1677600790208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5sEhHn/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677600826069	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600826085	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600826086	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600854012	Marionette	INFO	Stopped listening on port 33591
+1677600879345	geckodriver	INFO	Listening on 127.0.0.1:42037
+1677600880403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBtm4sF"
+1677600887915	Marionette	INFO	Marionette enabled
+1677600887954	Marionette	INFO	Listening on port 41115
+Read port: 41115
+1677600888962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBtm4sF/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1288: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+keywordURIFixup@resource://gre/modules/URIFixup.sys.mjs:1047:12
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:443:7
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 518: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+keywordURIFixup@resource://gre/modules/URIFixup.sys.mjs:1047:12
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:443:7
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+" {file: "resource://gre/modules/SearchService.sys.mjs" line: 1288}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+keywordURIFixup@resource://gre/modules/URIFixup.sys.mjs:1047:12
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:443:7
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+" {file: "resource://gre/modules/SearchService.sys.mjs" line: 1288}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1288: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:460:32
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 518: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:460:32
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+" {file: "resource://gre/modules/SearchService.sys.mjs" line: 1288}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+#ensureInitialized@resource://gre/modules/SearchService.sys.mjs:1288:15
+get defaultEngine@resource://gre/modules/SearchService.sys.mjs:196:28
+keywordToURI@resource://gre/modules/URIFixup.sys.mjs:518:1
+tryKeywordFixupForURIInfo@resource://gre/modules/URIFixup.sys.mjs:861:41
+getFixupURIInfo@resource://gre/modules/URIFixup.sys.mjs:460:32
+_getUrlMetaData@resource:///modules/UrlbarValueFormatter.sys.mjs:150:35
+_ensureFormattedHostVisible/<@resource:///modules/UrlbarValueFormatter.sys.mjs:105:41
+" {file: "resource://gre/modules/SearchService.sys.mjs" line: 1288}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 465: NS_ERROR_MALFORMED_URI: Couldn't build a valid uri
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yP/l/en_GB/vE97PmpENH7.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677600917354	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600917416	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600917418	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677600977022	Marionette	INFO	Stopped listening on port 41115
+1677601586621	geckodriver	INFO	Listening on 127.0.0.1:38531
+1677601587699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileuf3F4q"
+1677601591735	Marionette	INFO	Marionette enabled
+1677601591742	Marionette	INFO	Listening on port 34629
+Read port: 34629
+1677601592182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuf3F4q/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677601621124	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601621152	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601621155	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601643488	Marionette	INFO	Stopped listening on port 34629
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677601651796	geckodriver	INFO	Listening on 127.0.0.1:54791
+1677601652874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilerpM27i"
+1677601659693	Marionette	INFO	Marionette enabled
+1677601659702	Marionette	INFO	Listening on port 37677
+Read port: 37677
+1677601660634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerpM27i/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yP/l/en_GB/vE97PmpENH7.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677601684270	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601684279	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601684281	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601722780	Marionette	INFO	Stopped listening on port 37677
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1677601789628	geckodriver	INFO	Listening on 127.0.0.1:51529
+1677601789680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexV3LYq"
+1677601793973	Marionette	INFO	Marionette enabled
+1677601793983	Marionette	INFO	Listening on port 36949
+Read port: 36949
+1677601794257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexV3LYq/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677601816025	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601816050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601816060	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677601829096	geckodriver	INFO	Listening on 127.0.0.1:50851
+1677601830132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiletepTlJ"
+1677601831446	Marionette	INFO	Stopped listening on port 36949
+1677601834197	Marionette	INFO	Marionette enabled
+1677601834207	Marionette	INFO	Listening on port 42499
+Read port: 42499
+1677601834363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletepTlJ/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677601851529	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601851535	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677601851565	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677601870297	Marionette	INFO	Stopped listening on port 42499
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: TypeError: can't access dead object
+1677602184515	geckodriver	INFO	Listening on 127.0.0.1:47275
+1677602185528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1oRF56"
+1677602188222	Marionette	INFO	Marionette enabled
+1677602188231	Marionette	INFO	Listening on port 41301
+Read port: 41301
+1677602188388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1oRF56/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677602202378	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677602202383	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677602202400	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677602221088	Marionette	INFO	Stopped listening on port 41301
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: TypeError: can't access dead object
+1677602341242	geckodriver	INFO	Listening on 127.0.0.1:43997
+1677602342244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile9dL53V"
+1677602345988	Marionette	INFO	Marionette enabled
+1677602346002	Marionette	INFO	Listening on port 34777
+Read port: 34777
+1677602346168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9dL53V/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yP/l/en_GB/vE97PmpENH7.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677602361547	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677602361552	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677602380781	Marionette	INFO	Stopped listening on port 34777
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: TypeError: can't access dead object
+1677602949851	geckodriver	INFO	Listening on 127.0.0.1:46387
+1677602950880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevwBmQy"
+1677602953740	Marionette	INFO	Marionette enabled
+1677602953749	Marionette	INFO	Listening on port 46747
+Read port: 46747
+1677602953920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevwBmQy/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yH/l/en_GB/epQ0XzSiSTD.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677602970489	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677602970509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677602970509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677603026693	Marionette	INFO	Stopped listening on port 46747
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: TypeError: can't access dead object
+1677603092224	geckodriver	INFO	Listening on 127.0.0.1:53613
+1677603093271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBcxom4"
+1677603099585	Marionette	INFO	Marionette enabled
+1677603099617	Marionette	INFO	Listening on port 44493
+Read port: 44493
+1677603100662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBcxom4/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yP/l/en_GB/vE97PmpENH7.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677603114815	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7_T4/y9/l/makehaste_jhash/Lt4WrUtiEDR.js?_nc_x=kzXXrDIh-me, line 177: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1677603122678	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677603122685	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677603122686	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ilb54/y1/l/makehaste_jhash/q9KvdzRw0cW2Ih9lcn4LvtlHpIqB-XEZLk_d21yjXBzXnAHQQP2YeB2D_g-R6kNt91926C1_Iuc1YH3zfdgTc5jjyqtV5Ucfiua-ZDj-HxJNRdv-forB7DuhEXcvSP5G52C_.js?_nc_x=kzXXrDIh-me, line 564: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1677603205752	Marionette	INFO	Stopped listening on port 44493
