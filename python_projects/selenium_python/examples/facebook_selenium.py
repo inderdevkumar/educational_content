@@ -12,10 +12,12 @@ class class_find_element_by_xpath:
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         driver.get("https://www.facebook.com/")
         user_id= driver.find_element(By.NAME, "email")
-        user_id.send_keys("indra0102thetiger@gmail.com")
+        email= input("Enter email: ")
+        passwd= input("Enter password: ")
+        user_id.send_keys(email)
 
         user_pass= driver.find_element(By.NAME, "pass")
-        user_pass.send_keys("kumar0102")
+        user_pass.send_keys(passwd)
 
         login_btn= driver.find_element(By.NAME, "login")
         login_btn.click()
