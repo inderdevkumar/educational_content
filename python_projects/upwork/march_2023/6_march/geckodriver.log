@@ -1,0 +1,130 @@
+1678184682704	geckodriver	INFO	Listening on 127.0.0.1:48997
+1678184683724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilegaMwt0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678184687137	Marionette	INFO	Marionette enabled
+1678184687145	Marionette	INFO	Listening on port 35205
+Read port: 35205
+1678184687330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegaMwt0/search.json.mozlz4", (void 0)))
+1678184821214	geckodriver	INFO	Listening on 127.0.0.1:54543
+1678184822241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilePwJx75"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678184822939	Marionette	INFO	Stopped listening on port 35205
+1678184826023	Marionette	INFO	Marionette enabled
+1678184826033	Marionette	INFO	Listening on port 37911
+Read port: 37911
+1678184826240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePwJx75/search.json.mozlz4", (void 0)))
+1678184847938	Marionette	INFO	Stopped listening on port 37911
+1678185260829	geckodriver	INFO	Listening on 127.0.0.1:52483
+1678185261840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilepMoYVz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185264698	Marionette	INFO	Marionette enabled
+1678185264705	Marionette	INFO	Listening on port 39435
+Read port: 39435
+1678185264869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepMoYVz/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+1678185358709	geckodriver	INFO	Listening on 127.0.0.1:34147
+1678185359719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileqcg10N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185363040	Marionette	INFO	Marionette enabled
+1678185363047	Marionette	INFO	Listening on port 42707
+Read port: 42707
+1678185363213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqcg10N/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1678185373481	Marionette	INFO	Stopped listening on port 39435
+1678185437965	Marionette	INFO	Stopped listening on port 42707
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1678185484911	geckodriver	INFO	Listening on 127.0.0.1:58153
+1678185485922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileTM9T8y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185489443	Marionette	INFO	Marionette enabled
+1678185489452	Marionette	INFO	Listening on port 39737
+Read port: 39737
+1678185489648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTM9T8y/search.json.mozlz4", (void 0)))
+1678185512247	Marionette	INFO	Stopped listening on port 39737
+1678185687953	geckodriver	INFO	Listening on 127.0.0.1:38863
+1678185688973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQcZj8N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185691892	Marionette	INFO	Marionette enabled
+1678185691899	Marionette	INFO	Listening on port 39339
+Read port: 39339
+1678185692062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQcZj8N/search.json.mozlz4", (void 0)))
+1678185757563	geckodriver	INFO	Listening on 127.0.0.1:36731
+1678185758591	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile0a8y1A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185761396	Marionette	INFO	Stopped listening on port 39339
+1678185762143	Marionette	INFO	Marionette enabled
+1678185762153	Marionette	INFO	Listening on port 36107
+Read port: 36107
+1678185762363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0a8y1A/search.json.mozlz4", (void 0)))
+1678185800747	Marionette	INFO	Stopped listening on port 36107
+1678185844192	geckodriver	INFO	Listening on 127.0.0.1:49675
+1678185845213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexOXgxc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678185847925	Marionette	INFO	Marionette enabled
+1678185847933	Marionette	INFO	Listening on port 36591
+Read port: 36591
+1678185848105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexOXgxc/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+1678185879161	Marionette	INFO	Stopped listening on port 36591
+1678186217634	geckodriver	INFO	Listening on 127.0.0.1:41671
+1678186218667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBQpm2P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678186221776	Marionette	INFO	Marionette enabled
+1678186221784	Marionette	INFO	Listening on port 37567
+Read port: 37567
+1678186221965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBQpm2P/search.json.mozlz4", (void 0)))
+1678186255699	Marionette	INFO	Stopped listening on port 37567
+1678190810166	geckodriver	INFO	Listening on 127.0.0.1:45535
+1678190811205	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileRTFWaE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678190817415	Marionette	INFO	Marionette enabled
+1678190817453	Marionette	INFO	Listening on port 41917
+Read port: 41917
+1678190818166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRTFWaE/search.json.mozlz4", (void 0)))
+1678190898661	geckodriver	INFO	Listening on 127.0.0.1:35473
+1678190898681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileNFm2bQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678190901021	Marionette	INFO	Stopped listening on port 41917
+1678190903117	Marionette	INFO	Marionette enabled
+1678190903127	Marionette	INFO	Listening on port 36595
+Read port: 36595
+1678190903368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNFm2bQ/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+1678191570654	Marionette	INFO	Stopped listening on port 36595
