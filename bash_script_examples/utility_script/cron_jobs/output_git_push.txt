@@ -1,19 +1,13 @@
 ===== Starts here ================================
 
-On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: python_projects/upwork/march_2023/geckodriver.log[m Untracked files: (use "git add <file>..." to include in what will be committed) [31mpython_projects/upwork/march_2023/6_march/[m [31mpython_projects/upwork/march_2023/scrape_n_save_in_excel.py[m [31mpython_projects/upwork/march_2023/scrapper_from_imdb_n_save_in_excel.py[m no changes added to commit (use "git add" and/or "git commit -a")
+On branch master Changes not staged for commit: (use "git add <file>..." to update what will be committed) (use "git checkout -- <file>..." to discard changes in working directory) [31mmodified: bash_script_examples/utility_script/cron_jobs/output_git_push.txt[m [31mmodified: python_projects/upwork/cover_letter.txt[m [31mmodified: python_projects/upwork/march_2023/scrapper_from_imdb_n_save_in_excel.py[m no changes added to commit (use "git add" and/or "git commit -a")
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   bash_script_examples/utility_script/cron_jobs/output_git_push.txt
-	modified:   python_projects/upwork/march_2023/geckodriver.log
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	python_projects/upwork/march_2023/6_march/
-	python_projects/upwork/march_2023/scrape_n_save_in_excel.py
-	python_projects/upwork/march_2023/scrapper_from_imdb_n_save_in_excel.py
+	modified:   python_projects/upwork/cover_letter.txt
+	modified:   python_projects/upwork/march_2023/scrapper_from_imdb_n_save_in_excel.py
 
 no changes added to commit (use "git add" and/or "git commit -a")

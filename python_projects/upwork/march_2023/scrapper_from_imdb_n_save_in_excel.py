@@ -60,7 +60,7 @@ class imdb:
         result = pd.concat([df, df1_update], axis=1, join='inner')
         #print(result)
 
-        result.to_excel("/home/inder/my_data/upwork_data/march_2023/imdb.xlsx")
+        result.to_excel("imdb.xlsx")
 
 cls_obj= imdb()
 cls_obj.get_top5_movies_with_their_details()
