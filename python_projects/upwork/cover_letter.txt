@@ -1,9 +1,10 @@
 Hi,
-
-I would like to express my interest in the position.
+I would like to express my interest in the project.
 With overall 5 years and 3 years of relevant experience in L&T Technology Services, I am confident that I can make a positive contribution to your project. I am able to work well both independently and as part of a team.
+Just for your reference, I attached a demo python file which scrape latest tweets based on keywords and user location.
+In demo file, it scrape only 5 tweets and store in list as it is. I can scrap all tweets and store them in txt/csv file also as per the project requirement. Above is done using python with selenium.
+
 I am eager to discuss this opportunity further and look forward to hearing from you.
-Just for your reference, I attached a demo python file which automate sharing to friends from first available link in facebook.
 Thank you for your time and consideration.
 
 Thanks and Regards,

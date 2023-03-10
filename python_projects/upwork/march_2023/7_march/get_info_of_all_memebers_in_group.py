@@ -9,10 +9,10 @@ class facebook:
         driver.get("https://www.facebook.com/groups/341868919278348/members")
         time.sleep(3)
         user_id= driver.find_element(By.NAME, "email")
-        user_id.send_keys("indra0102thetiger@gmail.com")
+        user_id.send_keys("gmail")
 
         user_pass= driver.find_element(By.NAME, "pass")
-        user_pass.send_keys("kumar0102")
+        user_pass.send_keys("pass")
 
         login_btn= driver.find_element(By.ID, "loginbutton")
         login_btn.click()
