@@ -1,0 +1,330 @@
+1678506180187	geckodriver	INFO	Listening on 127.0.0.1:33615
+1678506181292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileK7hPfX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678506188936	Marionette	INFO	Marionette enabled
+1678506188953	Marionette	INFO	Listening on port 46087
+Read port: 46087
+1678506189981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK7hPfX/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+1678506297615	Marionette	INFO	Stopped listening on port 46087
+1678506298711	geckodriver	INFO	Listening on 127.0.0.1:34779
+1678506299746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewx46fo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678506303796	Marionette	INFO	Marionette enabled
+1678506303805	Marionette	INFO	Listening on port 37831
+Read port: 37831
+1678506304022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewx46fo/search.json.mozlz4", (void 0)))
+1678506340295	Marionette	INFO	Stopped listening on port 37831
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678506586359	geckodriver	INFO	Listening on 127.0.0.1:40649
+1678506587462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefmXMGQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678506592705	Marionette	INFO	Marionette enabled
+1678506592713	Marionette	INFO	Listening on port 45573
+Read port: 45573
+1678506593276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefmXMGQ/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+1678506632906	Marionette	INFO	Stopped listening on port 45573
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678506773753	geckodriver	INFO	Listening on 127.0.0.1:36965
+1678506774817	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilehn3ZDl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678506778683	Marionette	INFO	Marionette enabled
+1678506778692	Marionette	INFO	Listening on port 41247
+Read port: 41247
+1678506778967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehn3ZDl/search.json.mozlz4", (void 0)))
+1678506815040	Marionette	INFO	Stopped listening on port 41247
+1678509462111	geckodriver	INFO	Listening on 127.0.0.1:38471
+1678509463142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile5cg8bK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678509470361	Marionette	INFO	Marionette enabled
+1678509470392	Marionette	INFO	Listening on port 40547
+Read port: 40547
+1678509471386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5cg8bK/search.json.mozlz4", (void 0)))
+1678509545149	geckodriver	INFO	Listening on 127.0.0.1:40273
+1678509546182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFFZj6X"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678509551184	Marionette	INFO	Marionette enabled
+1678509551195	Marionette	INFO	Listening on port 36161
+Read port: 36161
+1678509551547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFFZj6X/search.json.mozlz4", (void 0)))
+1678509561690	Marionette	INFO	Stopped listening on port 40547
+1678510237050	geckodriver	INFO	Listening on 127.0.0.1:46073
+1678510237999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVDGFkc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678510243349	Marionette	INFO	Marionette enabled
+1678510243356	Marionette	INFO	Listening on port 37561
+Read port: 37561
+1678510243817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVDGFkc/search.json.mozlz4", (void 0)))
+1678510366628	geckodriver	INFO	Listening on 127.0.0.1:43031
+1678510367302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1RCNDF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678510376379	Marionette	INFO	Marionette enabled
+1678510376394	Marionette	INFO	Listening on port 35411
+Read port: 35411
+1678510377526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1RCNDF/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+1678510394197	Marionette	INFO	Stopped listening on port 37561
+1678510459382	Marionette	INFO	Stopped listening on port 36161
+1678510461557	Marionette	INFO	Stopped listening on port 35411
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1678510503359	geckodriver	INFO	Listening on 127.0.0.1:39607
+1678510504370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileHh7Y31"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678510507297	Marionette	INFO	Marionette enabled
+1678510507307	Marionette	INFO	Listening on port 46867
+Read port: 46867
+1678510507475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHh7Y31/search.json.mozlz4", (void 0)))
+1678510544785	Marionette	INFO	Stopped listening on port 46867
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1678510811272	geckodriver	INFO	Listening on 127.0.0.1:54343
+1678510812304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDZwhss"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678510815832	Marionette	INFO	Marionette enabled
+1678510815839	Marionette	INFO	Listening on port 35839
+Read port: 35839
+1678510816011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDZwhss/search.json.mozlz4", (void 0)))
+1678510851044	Marionette	INFO	Stopped listening on port 35839
+1678511234612	geckodriver	INFO	Listening on 127.0.0.1:43849
+1678511235644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilebXAx82"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678511238816	Marionette	INFO	Marionette enabled
+1678511238826	Marionette	INFO	Listening on port 36589
+Read port: 36589
+1678511239015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebXAx82/search.json.mozlz4", (void 0)))
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MFQHM9N, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MFQHM9N, line 36: uncaught exception: [object Object]
+1678511352605	geckodriver	INFO	Listening on 127.0.0.1:55687
+1678511353639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile9YdMtG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678511356930	Marionette	INFO	Marionette enabled
+1678511356940	Marionette	INFO	Listening on port 36159
+Read port: 36159
+1678511357125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9YdMtG/search.json.mozlz4", (void 0)))
+1678511453086	Marionette	INFO	Stopped listening on port 36589
+1678511463426	Marionette	INFO	Stopped listening on port 36159
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1678511863296	geckodriver	INFO	Listening on 127.0.0.1:33917
+1678511864294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3Y3DD2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678511867444	Marionette	INFO	Marionette enabled
+1678511867451	Marionette	INFO	Listening on port 40491
+Read port: 40491
+1678511867631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3Y3DD2/search.json.mozlz4", (void 0)))
+1678511903580	Marionette	INFO	Stopped listening on port 40491
+1678512029064	geckodriver	INFO	Listening on 127.0.0.1:60305
+1678512030092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBbBR7I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678512032913	Marionette	INFO	Marionette enabled
+1678512032920	Marionette	INFO	Listening on port 34671
+Read port: 34671
+1678512033083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBbBR7I/search.json.mozlz4", (void 0)))
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MFQHM9N, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MFQHM9N, line 36: uncaught exception: [object Object]
+1678512068160	Marionette	INFO	Stopped listening on port 34671
+1678512160000	geckodriver	INFO	Listening on 127.0.0.1:37417
+1678512161029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileTfpgne"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678512164337	Marionette	INFO	Marionette enabled
+1678512164344	Marionette	INFO	Listening on port 42723
+Read port: 42723
+1678512164507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTfpgne/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678525342870	geckodriver	INFO	Listening on 127.0.0.1:47123
+1678525343834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewXymIc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678525351616	Marionette	INFO	Marionette enabled
+1678525351646	Marionette	INFO	Listening on port 45525
+Read port: 45525
+1678525352760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewXymIc/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678525451103	Marionette	INFO	Stopped listening on port 45525
+1678525461587	geckodriver	INFO	Listening on 127.0.0.1:47491
+1678525462533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileM9lsg0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678525472205	Marionette	INFO	Marionette enabled
+1678525472227	Marionette	INFO	Listening on port 35127
+Read port: 35127
+1678525472976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM9lsg0/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678525681891	Marionette	INFO	Stopped listening on port 35127
+1678525690845	geckodriver	INFO	Listening on 127.0.0.1:37049
+1678525691845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXnx4dy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678525699319	Marionette	INFO	Marionette enabled
+1678525699350	Marionette	INFO	Listening on port 43427
+Read port: 43427
+1678525700404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXnx4dy/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678525884551	Marionette	INFO	Stopped listening on port 43427
+1678526039629	geckodriver	INFO	Listening on 127.0.0.1:34449
+1678526040680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJtAgUl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678526047077	Marionette	INFO	Marionette enabled
+1678526047120	Marionette	INFO	Listening on port 35131
+Read port: 35131
+Read port: 35131
+1678526048723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJtAgUl/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678526147617	Marionette	INFO	Stopped listening on port 35131
+1678526753931	geckodriver	INFO	Listening on 127.0.0.1:38191
+1678526754675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile09U08C"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678526769970	Marionette	INFO	Marionette enabled
+1678526770282	Marionette	INFO	Listening on port 45755
+Read port: 45755
+Read port: 45755
+1678526771777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile09U08C/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678527593056	geckodriver	INFO	Listening on 127.0.0.1:36019
+1678527594046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDmmgJw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678527599452	Marionette	INFO	Marionette enabled
+1678527599468	Marionette	INFO	Listening on port 44269
+Read port: 44269
+1678527600465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDmmgJw/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678527654558	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678527658537	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678527663340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678527667142	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678527669263	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
