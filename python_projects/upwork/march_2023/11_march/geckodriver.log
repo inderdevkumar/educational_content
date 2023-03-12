@@ -328,3 +328,1390 @@ JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line
 1678527663340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1678527667142	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1678527669263	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678528205236	Marionette	INFO	Stopped listening on port 44269
+1678529944881	geckodriver	INFO	Listening on 127.0.0.1:34369
+1678529946089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVzFgjo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678529961173	Marionette	INFO	Marionette enabled
+1678529961200	Marionette	INFO	Listening on port 40347
+Read port: 40347
+1678529962203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVzFgjo/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 203 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 1805 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 4815 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 5151 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 10: Script terminated by timeout at:
+@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:10:1
+@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:10:3
+
+[2023-03-11T10:31:53Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-11T10:31:53Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-11T10:31:53Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-03-11T10:31:53Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9DoG2UqGQ_hj5gfOHn4oyjEZInin2z3VqHqE5UOquhE.js line 2 > eval line 4694 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/9318de79/jsbin/webcomponents-sd.vflset/webcomponents-sd.js, line 65: Script terminated by timeout at:
+appendChild@https://www.youtube.com/s/desktop/9318de79/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:65:83
+Io</a.prototype._attachDom@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3180:160
+Io</a.prototype._readyClients@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3179:70
+Ho</a.prototype._flushClients@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3102:125
+Ho</a.prototype._propertiesChanged@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3108:69
+vIa</b.prototype._flushProperties@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:2979:200
+Ho</a.prototype.ready@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3106:35
+Io</a.prototype.ready@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3178:131
+uLa</a.prototype.ready@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3488:48
+Ip</a.prototype.ready@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3588:73
+sMa/f.prototype.ready@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3650:48
+vIa</b.prototype._enableProperties@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:2978:209
+Ip</a.prototype._enableProperties@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3577:98
+zIa</f.prototype.connectedCallback@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:2998:119
+Io</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3177:140
+uLa</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3489:103
+Ip</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3579:157
+insertBefore@https://www.youtube.com/s/desktop/9318de79/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:64:426
+k.insertBefore@https://www.youtube.com/s/desktop/9318de79/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:121:489
+e.__createAndInsertInstance@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3400:39
+e.__ensureInstance@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3376:295
+a/f[l]@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:5505:62
+e.__render@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3378:44
+e.__debounceRender/this.__renderDebouncer<@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3370:138
+Ro.prototype.setConfig/this._timer<@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:3261:160
+sIa@https://www.youtube.com/s/desktop/9318de79/jsbin/desktop_polymer.vflset/desktop_polymer.js:2953:295
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678530808039	Marionette	INFO	Stopped listening on port 40347
+1678531218279	geckodriver	INFO	Listening on 127.0.0.1:38413
+1678531219266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDlLGla"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678531226440	Marionette	INFO	Marionette enabled
+1678531226469	Marionette	INFO	Listening on port 41853
+Read port: 41853
+1678531227421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDlLGla/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678531672898	geckodriver	INFO	Listening on 127.0.0.1:57975
+1678531673839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileIvH9us"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678531682271	Marionette	INFO	Marionette enabled
+1678531682298	Marionette	INFO	Listening on port 35699
+Read port: 35699
+1678531683166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIvH9us/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678531696987	Marionette	INFO	Stopped listening on port 41853
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/9a1gc4ot1svtfor3tkzcqwgbg, line 19260: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/ozuydxxzkv0piawa3bq6rldi, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9a1gc4ot1svtfor3tkzcqwgbg, line 19260: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9a1gc4ot1svtfor3tkzcqwgbg, line 19260: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9a1gc4ot1svtfor3tkzcqwgbg, line 19260: unreachable code after return statement
+1678531963638	Marionette	INFO	Stopped listening on port 35699
+console.error: (new Error("IndexedDB: security-state/onecrl getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.jsm:116:1
+NetworkError@resource://services-settings/RemoteSettingsClient.jsm:120:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:916:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:821:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+1678531974270	geckodriver	INFO	Listening on 127.0.0.1:60425
+1678531975232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileqIqMqC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678531984804	Marionette	INFO	Marionette enabled
+1678531984849	Marionette	INFO	Listening on port 39229
+Read port: 39229
+Read port: 39229
+1678531986376	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqIqMqC/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678532015867	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678532092101	Marionette	INFO	Stopped listening on port 39229
+1678532169308	geckodriver	INFO	Listening on 127.0.0.1:43369
+1678532170367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevzFjBP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678532174387	Marionette	INFO	Marionette enabled
+1678532174397	Marionette	INFO	Listening on port 40353
+Read port: 40353
+1678532174688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevzFjBP/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678532296664	Marionette	INFO	Stopped listening on port 40353
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1678532540586	geckodriver	INFO	Listening on 127.0.0.1:44131
+1678532541597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelHCopx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678532545024	Marionette	INFO	Marionette enabled
+1678532545032	Marionette	INFO	Listening on port 40665
+Read port: 40665
+1678532545292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelHCopx/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678532708539	geckodriver	INFO	Listening on 127.0.0.1:54495
+1678532709503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileNEUzBQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678532721656	Marionette	INFO	Marionette enabled
+1678532721767	Marionette	INFO	Listening on port 44789
+Read port: 44789
+Read port: 44789
+1678532723748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNEUzBQ/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, admin-widget-1, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-4, is unknown
+1678532843301	Marionette	INFO	Stopped listening on port 44789
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1678532863424	Marionette	INFO	Stopped listening on port 40665
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1678535419223	geckodriver	INFO	Listening on 127.0.0.1:55955
+1678535420278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenMOkV4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678535430580	Marionette	INFO	Marionette enabled
+1678535430593	Marionette	INFO	Listening on port 33201
+Read port: 33201
+Read port: 33201
+1678535433095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenMOkV4/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, admin-widget-1, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-4, is unknown
+1678535630982	geckodriver	INFO	Listening on 127.0.0.1:59407
+1678535631537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileZ42MAF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678535642959	Marionette	INFO	Marionette enabled
+1678535642975	Marionette	INFO	Listening on port 33561
+Read port: 33561
+Read port: 33561
+Read port: 33561
+Read port: 33561
+1678535647637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ42MAF/search.json.mozlz4", (void 0)))
+1678535696487	Marionette	INFO	Stopped listening on port 33201
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/4jv2rp26wlln2syfoynzhxuba, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/dt7ut0dug8c9zfds95uylx1tp, line 19250: unreachable code after return statement
+1678535755593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, profile-localized-contents-with-full-supported-localized-contents-6, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, learning-recommendations-by-profile-9, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, profile-cards-by-initial-cards-7, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, profile-cards-by-deferred-cards-8, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-cluster-collection-13, is unknown
+1678535852533	Marionette	INFO	Stopped listening on port 33561
+1678535862832	geckodriver	INFO	Listening on 127.0.0.1:40213
+1678535863759	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile0pBfXN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678535886505	Marionette	INFO	Marionette enabled
+1678535886625	Marionette	INFO	Listening on port 40159
+Read port: 40159
+Read port: 40159
+1678535888970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0pBfXN/search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+1678536120892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678536161159	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678536173675	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678536187576	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678536195610	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678536279116	Marionette	INFO	Stopped listening on port 40159
+1678536307770	geckodriver	INFO	Listening on 127.0.0.1:57279
+1678536308920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecu5Gwg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678536335595	Marionette	INFO	Marionette enabled
+1678536335812	Marionette	INFO	Listening on port 40671
+Read port: 40671
+Read port: 40671
+Read port: 40671
+Read port: 40671
+1678536340346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecu5Gwg/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678536404762	geckodriver	INFO	Listening on 127.0.0.1:42417
+1678536405794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilev3Wdal"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678536409267	Marionette	INFO	Marionette enabled
+1678536409275	Marionette	INFO	Listening on port 44187
+Read port: 44187
+1678536409456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev3Wdal/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678536444783	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678536507893	geckodriver	INFO	Listening on 127.0.0.1:48491
+1678536508914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelokepQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678536513609	Marionette	INFO	Marionette enabled
+1678536513620	Marionette	INFO	Listening on port 42363
+Read port: 42363
+1678536513809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1678536514882	Marionette	INFO	Stopped listening on port 44187
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelokepQ/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-cluster-collection-5, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-10, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-12, is unknown
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-15, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-cluster-collection-right-rail-24, is unknown
+JavaScript error: https://static.licdn.com/sc/h/c47utqs3fgb5jcuc1gn8mkl2f, line 222: SyntaxError: Performance.measure: Given mark name, search-global-typeahead-25, is unknown
+1678536738843	Marionette	INFO	Stopped listening on port 42363
+1678537224752	geckodriver	INFO	Listening on 127.0.0.1:37899
+1678537225543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile8YfdzM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678537229342	Marionette	INFO	Marionette enabled
+1678537229377	Marionette	INFO	Listening on port 34647
+Read port: 34647
+1678537229931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8YfdzM/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+1678537449899	geckodriver	INFO	Listening on 127.0.0.1:56075
+1678537450905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewKdknP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678537451677	Marionette	INFO	Stopped listening on port 34647
+1678537455385	Marionette	INFO	Marionette enabled
+1678537455394	Marionette	INFO	Listening on port 39155
+Read port: 39155
+1678537455741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewKdknP/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678537538117	Marionette	INFO	Stopped listening on port 39155
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1678537636561	geckodriver	INFO	Listening on 127.0.0.1:47733
+1678537637597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile0YfHpH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678537640960	Marionette	INFO	Marionette enabled
+1678537640968	Marionette	INFO	Listening on port 41773
+Read port: 41773
+1678537641153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0YfHpH/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678537809590	geckodriver	INFO	Listening on 127.0.0.1:55315
+1678537810626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGnPqVP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678537813658	Marionette	INFO	Marionette enabled
+1678537813667	Marionette	INFO	Listening on port 44993
+Read port: 44993
+1678537813979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGnPqVP/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+1678537969643	geckodriver	INFO	Listening on 127.0.0.1:59149
+1678537970520	Marionette	INFO	Stopped listening on port 44993
+1678537970638	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelY14Jt"
+1678537972021	Marionette	INFO	Stopped listening on port 41773
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678537976749	Marionette	INFO	Marionette enabled
+1678537976770	Marionette	INFO	Listening on port 35555
+Read port: 35555
+1678537977342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelY14Jt/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 461))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538035272	Marionette	INFO	Stopped listening on port 35555
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1678538154219	geckodriver	INFO	Listening on 127.0.0.1:41917
+1678538155244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecB4oR3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678538158411	Marionette	INFO	Marionette enabled
+1678538158420	Marionette	INFO	Listening on port 40407
+Read port: 40407
+1678538158605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecB4oR3/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538183611	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 17476: Error: {"status":0}
+1678538231538	Marionette	INFO	Stopped listening on port 40407
+1678538303941	geckodriver	INFO	Listening on 127.0.0.1:54823
+1678538304975	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileCKVSMD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678538308209	Marionette	INFO	Marionette enabled
+1678538308217	Marionette	INFO	Listening on port 46461
+Read port: 46461
+1678538308392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCKVSMD/search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.jsm", 116))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538461644	geckodriver	INFO	Listening on 127.0.0.1:43895
+1678538462673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezuo2G7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678538465727	Marionette	INFO	Marionette enabled
+1678538465734	Marionette	INFO	Listening on port 39327
+Read port: 39327
+1678538465922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezuo2G7/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538497838	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538511405	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538521581	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538525519	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538628561	Marionette	INFO	Stopped listening on port 46461
+1678538700776	geckodriver	INFO	Listening on 127.0.0.1:58645
+1678538701843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUtTOsB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678538707935	Marionette	INFO	Stopped listening on port 39327
+1678538709558	Marionette	INFO	Marionette enabled
+1678538709593	Marionette	INFO	Listening on port 44009
+Read port: 44009
+1678538710043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUtTOsB/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678538755475	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538761398	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538771231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538786661	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538790740	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538798722	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538817627	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678538831662	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539164934	geckodriver	INFO	Listening on 127.0.0.1:57487
+1678539165970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileLCY5oV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678539168471	Marionette	INFO	Stopped listening on port 44009
+1678539169167	Marionette	INFO	Marionette enabled
+1678539169175	Marionette	INFO	Listening on port 43671
+Read port: 43671
+1678539169372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLCY5oV/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/53pvxhwnu4814i1e9beje3cqa, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://linkedin-api.arkoselabs.com/cdn/fc/js/f9e9a66de775dbdbbe438a38c30dbefe118d3f49/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678539257904	geckodriver	INFO	Listening on 127.0.0.1:58445
+1678539258917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1nqmyD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678539262467	Marionette	INFO	Marionette enabled
+1678539262477	Marionette	INFO	Listening on port 36517
+Read port: 36517
+1678539262693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1nqmyD/search.json.mozlz4", (void 0)))
+1678539268340	Marionette	INFO	Stopped listening on port 43671
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/8g9ykjaga9x45oggm19bh3yde, line 566: TypeError: this.paramsFor(...).result_type is undefined
+JavaScript error: https://static.licdn.com/sc/h/9pfrabn9ppkrflkrzwipk7k67, line 1612: MDError: [web-messenger-data] Network Error - initialSyncConversations (104) - NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678539444361	geckodriver	INFO	Listening on 127.0.0.1:44465
+1678539445395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezzxPRN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678539448462	Marionette	INFO	Marionette enabled
+1678539448470	Marionette	INFO	Listening on port 34225
+Read port: 34225
+1678539448655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezzxPRN/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/e56uj2o7u65zp2hqcrix0h4w6, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/19tl52tvyqkp7k6f54bmjnqq4, line 2682: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 19250: unreachable code after return statement
+1678539512805	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539520411	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539534723	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539554012	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539580548	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539584616	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539593495	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539730717	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539731508	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678539750189	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/sc/h/m3gikxcta1u17odkt6gvtw9c, line 166: TypeError: Network request failed
+1678539823924	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678539865887	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678540167585	Marionette	INFO	Stopped listening on port 34225
