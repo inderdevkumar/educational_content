@@ -1,0 +1,63 @@
+Vodafone, TCS, UST Global, MSYS, ARFY
+
+Vodafone
+
+Ansible-> playbook to install service, run it and replace some string in its config file
+Git-> log, diff, cherrypick, commit id
+
+
+TCS
+
+Selenium-> xpath, siblings, precedings, pandas-> merge side wise, row wise, mysql with python
+
+
+UST Global
+
+# Diff between append and extend
+list1= [1, 2,3]
+
+list1.append("4")
+print(list1)
+
+list2= [1,2,3]
+
+list1.extend(list2)
+print(list1)
+
+
+# find items b which are not in a:
+a = {1: 'r', 2: 's', 3: 't', 4: 'u', 5: 'v', 6:'w', 7:'y'}
+b = ['r', 's', 'p', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+result= [item for item in b if item not in a.values()]
+print("".join(result))
+
+# Decorator, magic method, inheitance and its types
+
+
+# Class to find area of triangle
+class area:
+    def __init__(self, b,h):
+        self.b= b
+        self.h= h
+
+    def find_area(self):
+        area= (0.5*self.b*self.h)
+        print(area)
+
+
+obj= area(2, 2)
+obj.find_area()
+
+
+MSYS
+
+python-> map, lambda, zip, iterator, genrator, sorting without built in, slicing 2nd last item without -2
+		multihreading, operator overloading, self vs variable, object vs self, decorator,
+
+api-> find status code of the request, and find the url
+
+
+ARFY 
+
+Just interaction-> no technical questions asked

@@ -1,0 +1,287 @@
+ ========= OOPS in python ==============
+
+Python supports functional 
+Procedural
+and OOP
+
+
+class has
+ attributes-> variables
+ behaviour -> methods(function )
+
+
+# ====================
+Variable vs object
+
+eg a= 8 . Here a is an object of class in. WE can check using print(type(a))
+
+lets say we have class name as computer. and we do comp= computer()
+THan comp is an object of class computer. 
+
+So, conclusion from above is a variable assigned with built in class called as variable 
+and variable assigned with class we create called as object.
+
+
+THere is special memory called as heap memory to store object in particular address. FOr each object seperate address is allocated
+we can get it by: print(id(comp))
+
+Size of an object-> depends on number of variables we have
+
+who allocated size to object, how much m/m to be given-> THis is done by constructor
+comp= Computer() -> This is constructor, which callls __init__() method called internally
+
+# ====  self ====
+
+self is the object we are passing. Useful in accessing data in diff methods
+
+eg
+
+class Computer():
+
+   def __init__(self, ram):
+      self.ram= ram  # => THis is like comp1.ram= ram
+
+   def config(self):
+      print("i5, 16gb ram")
+
+comp1= Computer("i5")  # => Its like Computer(comp1, "i5")
+comp2= Computer("i7")
+
+Computer.config(comp1) # comp1 is passed as an argument
+
+comp1.config()  # Behind the scenec comp1 is passeed as an argument
+
+
+Its a current instance of object. With it helps only, we are displaying config method according to the object.
+
+#  =======  __init__() ===============
+
+Its a special method. This is used to initialize variables. Will be called automatically.
+For every instance created, it be called.
+
+Ii is constructor.
+
+# =========  Variables in oops =====================
+Useful to store data
+1. Instance variables -> THey are diff for diff object. They are defined inside init method
+2. class/static variables -> They are commmon for all. They are define outside init but inside class
+
+# == Namespace =================
+two types:
+1, class namespace -> Where class variable are declared 
+2. instance namespace-> PLcae where instance bvariables are declared
+
+# ===========  Method TYpes ====================
+Methos is used to define behaviour
+
+1. class method-> It will have cls and thus deal with class variables. WE have to use decorator @classmethod to work it. eg. 			class_name.class_method()
+2. instance method -> IT will have self and thus deal with instance variables. 
+	Its of 2 types:
+	1. Accesors-> When you just want to get/access the instance variables called accesors. They are also called getters
+	2. Mutators-> When we modify/set instance variables called mutators. They are also called setters
+3. static method-> When we like to do something which is not depending on class variables/instance variables, we can use it. This is not 		related to class/ object. WE have to use @staticmethod decorator.
+
+
+# ========== Inner class =================
+Yes, we can do that.
+eg
+class Student:
+  def __init__(self, name, roll):
+	self.name= name
+	self.roll= roll
+	self.lap= self.laptop()  # Innecr class
+
+  
+  def show(self):
+	print(self.name, self.roll)
+	self.lap.show()  # Instance method of inner class
+
+  class laptop:
+	
+	def __init__(self):
+	   self.model= "hp"
+	   self.cpu= "i5"
+	   self.cost= 12000
+
+	def show(self):
+	   print(self.model, self.cpu, self.cost)
+
+s1= Student("Inder", 12)
+s1.show()
+
+# ============ Inheritance ==================
+
+Lets say we have 2 classes A and B. If B wanted to use all features of A. Than we can use inheritance.
+Just have to use like: class B(A)
+
+Example below is 
+# single level inheritance. Where one child class inheriting 1 parent class.
+parent(A)-> child(B) 
+A is parent and B is child class
+
+class A:
+  def f1(self):
+	print(f1)
+
+class B(A):
+  def f2(self):
+	print(f2)
+
+b1= B()
+b1.      # It can access both f1 and f2
+
+#  Multilevel inheritance
+grandparent (A)-> parent(B)-> child(C)
+
+C is having all features available from both A and class B. B is having all features from A also
+class A:
+  def f1(self):
+	print(f1)
+
+class B(A):
+  def f2(self):
+	print(f2)
+
+class C(B):
+  def f3(self):
+	print(f3)
+
+c1= C()
+c1.  # It can access all f1, f2 and f3
+
+
+# == Multiple Inheritance ====
+parent (A)
+	   -> child(C)
+parent(B)   
+
+C is inheriting features from one or more classes. Here B is having only f2 feature and A is having f1 feature
+
+class A:
+  def f1(self):
+	print(f1)
+
+class B:
+  def f2(self):
+	print(f2)
+
+class C(A, B):
+  def f3(self):
+	print(f3)
+
+c1= C()
+c1.  # It can access all f1, f2 and f3
+
+
+
+
+# ============  Constructor in inheritances ===============================
+
+# ======== 1. HOw constructor behave in inheritance
+
+class A:
+  def __init__(self):
+	print("init of A")
+  def f1(self):
+	print(f1)
+
+class B(A):
+  def __init__(self):
+	print("init of B")
+  def f2(self):
+	print(f2)
+
+b1= B() => It will inherit all features of class A. 
+	It will first check, if init is present in class B(sub class) and display
+	 if init not found in CLASS B, than check init in CLASS A(super class) and print init method.
+
+ie. if you create object of subclass it will first try to find init of subclass,
+If not found than only it will call init of super class
+
+
+# ======== 2. HOw to use super() method ============
+
+What if I like to call init of A also?
+than use : super().__init__()  inside __init__() of class B
+like:
+class B(A):
+  def __init__(self):
+	super().__init__()
+	print("init of B")
+
+with super(). -> WE can access any method of super class. init as well other method of super class
+
+
+Above is true for single level/ multi level inheritence. Ie where a child is inheriting a single parent.
+
+But in case of multiple inheritence, where a child inherit multiple parents, 
+
+like:
+class A:
+  def __init__(self):
+	print("init of A")
+  def f1(self):
+	print(f1)
+
+class B:
+  def __init__(self):
+	print("init of B")
+  def f2(self):
+	print(f2)
+
+class C(A,B):
+  def __init__(self):
+	super().__init__()
+	print("init of C")
+  def f3(self):
+	print(f3)
+
+c1= C() => It will print init of A and init C only. And init of B will not be called. Here C(A, B) -> A is at first that is why.
+It follows, first check for init in C than go to left CLASS Ie A to find init than comes right  CLASS ie B to find init.
+
+above concept to get init method of parent class, fails. As, now sub class will have 2 super class.
+ But super(). function used to call just one super class, and it gets confused.
+
+# =============== 3. Method Resolution Order(MRO) ================================
+
+To overcome above issue, MRO is used.
+
+like:
+class A:
+  def __init__(self):
+	print("init of A")
+  def f1(self):
+	print(f1 of class A)
+
+class B:
+  def __init__(self):
+	print("init of B")
+  def f1(self):
+	print(f1 of class b)
+
+class C(A,B):
+  def __init__(self):
+	super().__init__()
+	print("init of C")
+  def f2(self):
+	print(f2)
+
+c1= C() => # Constructor of A will be called and not constructor B as A in left. ==> init of A and init of C will be printed
+
+c1.f1()   # f1 is common in A and B, f1 of A will be called as A is in left     => f1 of class A will be printed
+
+
+# ===============  Polymorphism ===================================
+IT means one thing aand many forms
+
+four ways of implementing polymorphism:
+1. Duck TYping
+	x= 5  =>  x is just name to 5. WE got a space in m/m with a type int
+	x= "rest"  =>  x is just name to "rest". WE got a space in m/m with a type string
+	
+2. Operator Overloading
+
+	one operator with multiple form.
+eg 
+3. Method Overloading
+4. Method overriding
