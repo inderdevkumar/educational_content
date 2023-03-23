@@ -62,6 +62,8 @@ For every instance created, it be called.
 Ii is constructor.
 
 # =========  Variables in oops =====================
+
+
 Useful to store data
 1. Instance variables -> THey are diff for diff object. They are defined inside init method
 2. class/static variables -> They are commmon for all. They are define outside init but inside class
@@ -278,10 +280,257 @@ four ways of implementing polymorphism:
 1. Duck TYping
 	x= 5  =>  x is just name to 5. WE got a space in m/m with a type int
 	x= "rest"  =>  x is just name to "rest". WE got a space in m/m with a type string
+
+	eg using class:
+
 	
 2. Operator Overloading
+ 	Whenever we are doing operation like +, -, / etc. Behind the scene we are calling a method
+	respectively
+	one operator with multiple form. When we like to do any operation on obj, we have to use magic methods
+	 Operator will remain same, the operand will change. Ie. the type/number of parameter will be changed.
+		eg a= 2, b=6  => int().__add__(a, b)  # Type of parameter is int
+		   a= "2", b= "6" =>  str().__add__(a, b)  # Type of parameter is string
+                   a= 2, b= 6, c= 1 => int().__add__(a, b, c)   # The number of paramter is changed. But in all three operator is same.
 
-	one operator with multiple form.
-eg 
+	NOte: Make a note, only same type of parameter can be used. WE ca not use string and int combined
+  
+	eg 
+	a= 5, b= 6
+	print(a+b) # SImillar to int().__add__(a, b)  -> This done behine the scene
+
+	same is true if a nd b are string => str().__add__(a, b)
+
+	And these __add__(), __sub__(), __mul__()  etc. are called magic methods.
+
+	ie. All these operators behind the scene work as method
+
+	Example using class:
+  
+  class student:
+	
+	def __init__(self, m1, m2):
+	   self.m1= m1
+	   self.m2= m2
+	
+	# THis is done to over load + operator, and we can use it, how like to use 
+	# This will take 2 paramters self and other. They are variable name, we can change them
+	
+	# Example 1 operator overloading
+	def __add__(self, other):
+	    m1= self.m1+ other.m1
+	    m2= self.m2+ other.m2
+	    
+	    m3= student(m1, m2)
+	    return m3
+
+
+
+  s1= student(80, 90)
+  s2= student(75, 98)
+
+  sum= s1+s2  => THis will throw error as unsupported operand type +. Because studnet class dont what is +. So use magic method
+	to overload the operator like:  __add__()
+  
+    # After using __add__() method 
+  sum= s1+s2  => become,  student.__add__(s1, s2)  # So, s1-> self, and s2-> other parameter
+  
+  print(sum) => wil be: <__main__.student object at 0x145ebc05cfd0>  => It will print address of sum object
+		
+  print(sum.m1)	=> It will print as 80+75=> 155
+
+# == Example2 opperator overloading
+
+  class student:
+	
+	def __init__(self, m1, m2):
+	   self.m1= m1
+	   self.m2= m2
+	
+	# Example 2 operator overloading. Lets add their own marks and compare
+	def __gt__(self, other):
+	    std1= self.m1 +self.m2
+	    std2= other.m1 + other.m2
+	    
+	    if std1> std2:
+		return True
+	    else:
+		return False
+
+
+  s1= student(80, 90)
+  s2= student(75, 98)
+
+  if s1> s2:
+	print("s1 wins")
+  else:
+	print("s2 wins")
+
+
+# == Example 3  __str__()  => we can get value of object rather than address, In example1, when we print s3, we get address of an obj,
+And if we dont want that, we can do operator overloading using __str__() magic method
+
+class student:
+
+  def __init__(self, m1, m2):
+    self.m1= m1
+    self.m2= m2
+
+  def __add__(self, other):
+    m1= self.m1+ other.m1
+    m2= self.m2+ other.m2
+
+    m3= student(m1, m2)
+    return m3
+
+  def __str__(self):
+    return f"{self.m1}, {self.m2}"
+
+
+s1= student(80, 90)
+s2= student(75, 98)
+
+s3= s1+s2
+
+# Without __str__()  methiod
+print(s1)            => o/p is address of an obj <__main__.student object at 0x14c2432a7130>
+print(s2)            =>                          <__main__.student object at 0x147a82c6a0d0>
+print(s3.m1, s3.m2)  => 155 188  due to __add__()
+
+# With __str__()
+
+print(s1)            => o/p is now value due to operator overloading of __str__(): 80, 90
+print(s2)									 : 75, 98
+print(s3.m1, s3.m2)  => 155 188  due to __add__()
+
+
 3. Method Overloading
+
+	THis concept in not in python. In same class if 2 or more Methods are having same name but take different number of parameters
+can be called as method overloading.
+	In python we cant create 2 methods in same class. So this concept nkt valid in python 
+
+  #  SCenario 1 ===============
+
+class student:
+
+  def __init__(self, m1, m2):
+    self.m1= m1
+    self.m2= m2
+
+  def find_sum(self, a, b):
+    add= a + b
+    print(add)
+
+s1= student(80, 90)
+s1.find_sum(2, 8)    => O/P is 10
+
+ # == SCenario 2  ===============
+
+WE create 2 methods with same name but diff parameters
+
+class student:
+
+  def __init__(self, m1, m2):
+    self.m1= m1
+    self.m2= m2
+
+  def find_sum(self, a, b):
+    add= a + b
+    print(add)
+
+  def find_sum(self, a, b, c):
+    add= a + b + c
+    print(add)
+s1= student(80, 90)
+s1.find_sum(2, 8, 1)  => O/P will be 11
+
+# If we pass just arguments only. So, it will accept the highest arguments
+s1.find_sum(2, 8)  => We get an errror:  TypeError: find_sum() missing 1 required positional argument: 'c'
+
+# ======== Scenario 3 =======================
+This is a way, we can do method overloading as directly making 2 methods with same name in same class does niot support in python
+
+TO solve above issue, we can assign all expected number of parameters with None like below eg:
+
+class student:
+
+  def __init__(self, m1, m2):
+    self.m1= m1
+    self.m2= m2
+
+  def find_sum(self, a= None, b=None, c=None):
+    add= 0
+    if a!= None and b!=None and c!=None:
+      add= a + b + c
+    elif a!= None and b!=None:
+      add= a + b
+    else:
+      add= a
+    print(add)
+    
+s1= student(80, 90)
+s1.find_sum(2, 8, 1)
+s1.find_sum(2, 8)
+s1.find_sum(2)
+
 4. Method overriding
+
+	Two methods with same name and same number of parameters/arguments in diff classes.
+eg
+
+#  ========= scenario 1===================== 
+
+Create 2 diff class. No common method with same name
+
+class A:
+  def show(self):
+    print("CLass A")
+    
+class B:
+   pass
+
+obj= A()
+obj.show()  => O/P is : CLass A
+
+obj2= B()
+obj2.show()  => AttributeError: 'B' object has no attribute 'show'
+
+# =========== Scenario 2 =======================
+Create 2 diff class where B is child of A. No common method with same name
+
+class A:
+  def show(self):
+    print("CLass A")
+    
+class B(A):
+   pass
+
+obj= A()
+obj.show()  => O/P is : CLass A
+
+obj2= B()
+obj2.show()  => O/P is : CLass A
+
+
+# ============== SCenario 3 =========================
+
+Create 2 diff class where B is child of A. Also in both having same method name.
+So here Class B has all feature of A as its a child of A. BUt since its has same method which is available in parent class,
+IT uses his own method. THis is called overriding
+
+In short: It will first check method available in its own class, if not go for parent class
+
+class A:
+  def show(self):
+    print("CLass A")
+    
+class B(A):
+  def show(self):
+    print("CLass B")
+
+obj= A()
+obj.show()
+
+obj2= B()
+obj2.show()
