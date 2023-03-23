@@ -530,7 +530,7 @@ class B(A):
     print("CLass B")
 
 obj= A()
-obj.show()
+obj.show()  => O/P is : CLass A
 
 obj2= B()
-obj2.show()
+obj2.show()   => O/P is : CLass B
