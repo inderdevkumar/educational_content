@@ -1,0 +1,37 @@
+
+We will need requests and jsonpath
+
+import requests
+
+response= requests.get("")
+code= response.status_code
+
+assert code= 200, "Code is unmatched"
+
+print(response)  # It will show status code with class
+
+print(response.status_code)  # IT will show status code
+
+print(response.text)  # get content of response in unicode/ plain string
+
+print(response.content)  # IT will reqtuen the content in byte format
+
+print(response.json()) # It will return data in form of json
+
+
+# ===========================
+
+CRUD
+
+Create-> POST
+
+Read-> GET
+
+
+Update-> PUT/PATCH
+
+DElete-> DELETE
+
+
+PUT-> UPdate/Replace
+PATCH-> Update/Modify

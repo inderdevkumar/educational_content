@@ -1,0 +1,279 @@
+
+# === Self intro Certifications Features of python Why python is dynamic.  How memory is managed?
+x = 10
+y = x
+
+if id(x) == id(y):
+	print("x and y refer to the same object")
+
+explantion: In the above example, y = x will create another reference variable y which will refer to the same object because Python optimizes memory utilization by allocation the same object reference to a new variable if the object already exists with the same value.
+
+exanple2: 
+Now, let’s change the value of x and see what happens.
+x = 10
+y = x
+x += 1
+
+if id(x) != id(y):
+	print("x and y do not refer to the same object")
+So now x refer to a new object x and the link between x and 10 disconnected but y still refer to 10.
+
+The memory is allocated during the execution of instructions written by programmers. Note that the name heap has nothing to do with the heap data structure. It is called heap because it is a pile of memory space available to programmers to allocated and de-allocate. The variables are needed outside of method or function calls or are shared within multiple functions globally are stored in Heap memory.
+
+
+Dynamic typing means that the type of the variable is determined only during runtime. 
+Due to dynamic typing, in Python the same variable can have a different type at different times during the execution. Dynamic typing allows for flexibility in programming, but with a price in performance.
+
+
+# ========= Pass keyword in python .
+When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed.
+
+Empty code is not allowed in loops, function definitions, class definitions, or in if statements.
+
+# ====  List and tuple difference.
+
+# == vs is
+
+== is for value equality. Use it when you would like to know if two objects have the same value.
+
+is is for object identity. Use it when you would like to know if two references refer to the same object.
+
+eg:
+example1
+>>> a = 500
+>>> b = 500
+>>> a == b
+True
+>>> a is b
+False
+
+examle2
+a= 10
+b= a
+
+a==b => TRue
+a is b => True
+
+The operators is and is not test for object identity: x is y is true if and only if x and y are the same object. Object identity is determined using the id() function. x is not y yields the inverse truth value.
+
+
+# . Dbms queries(difficult), 
+
+
+    Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
+	SELECT UPPER(CustomerName) AS UppercaseCustomerName
+FROM Customers; 
+
+    Write a query to fetch the number of employees working in the department ‘HR’.
+	SELECT COUNT(column_name)
+FROM table_name
+WHERE condition; 
+
+    Write a query to get the current date.
+	SELECT GETDATE();
+
+    Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+	SELECT SUBSTRING(CustomerName, 1, 4) AS ExtractString
+FROM Customers;
+
+    Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+	SELECT LEFT(CustomerName, CHARINDEX('(',CustomerName)) AS ExtractString
+FROM Customers;    
+
+    Write a query to create a new table that consists of data and structure copied from the other table.
+	The following SQL statement copies only the German customers into a new table:
+	SELECT * INTO NewTable
+FROM OldTable
+WHERE Country = 'Germany'; 
+
+    Write q query to find all the employees whose salary is between 50000 to 100000.
+	SELECT * FROM table1 WHERE salary > 50000 and salary < 100000
+	or
+	SELECT * FROM EmployeePosition WHERE Salary BETWEEN '50000' AND '100000';
+
+    Write a query to find the names of employees that begin with ‘S’
+
+	select * from mytable where name like "S%"
+
+    Write a query to fetch top N records.
+
+	SELECT * FROM Customers LIMIT N;
+
+    Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+	select CONCAT(CustomerID, ' ', CustomerName) as Name from Customers
+
+
+# linux commands
+
+1. For example, if you want to set the permission such that the user can read, write, and execute it and members of your group can read and execute it, and others may only read it.
+	chmod 754 filename
+
+2. 
+pwd: Displays the path of the present working directory.
+ls: Lists all the files and directories in the present working directory.
+cd: Used to change the present working directory.
+mkdir: Creates a new directory
+rmdir: Deletes a directory
+
+3. grep command
+The grep command is used to search for a text in a file by pattern matching based on regular expression.
+Syntax: grep [options] pattern [files]
+
+grep -c "linux" interview.txt
+This command will print the count of the word “linux” in the “interview.txt” file.
+
+If you want to list the entries that start with the character ‘a’, then the command would be:
+cat linux.txt | grep ^a
+
+
+If you want to list the entries that  has the character ‘n’, 
+cat linux.txt | grep n
+
+^	  Match the beginning of the String
+$	  Match the end of the String
+*	  Match zero or more characters
+	  Represents special characters
+?	  Match exactly one character
+
+4.
+
+getpid():- get the unique process id of the process
+getppid():- get the parent process unique id
+
+5. Explain the redirection operator.
+The redirection operator is used to redirect the output of a particular command as an input to another command or file.
+‘>’ overwrites the existing content of the file or creates a new file.
+‘>>’ appends the new content to the end of the file or creates a new file. 
+
+
+6. Why is the tar command used?
+he tar command is used to extract or create an archived file.
+
+extract all the files from the archive named sample.tar.gz
+tar -xvzf sample.tar.gz
+
+create an archive of all the files stored in the path /home/linux/,
+tar -cvzf filename.tar.gz
+
+where c: create archive, x: extract, v: verbose, f: file
+
+
+7. How to terminate a running process in Linux?
+Every process has a unique process id. To terminate the process, we first need to find the process id. The ps command will list all the running processes along with the process id. And then we use the kill command to terminate the process.
+
+$ ps
+
+Suppose the process id of the process you want to terminate is 3849, then you will have to terminate it like this:
+
+$ kill 3849
+
+8. How to find where a file is stored in Linux?
+You can use the locate command to find the path to the file.
+
+Suppose you want to find the locations of a file name sample.txt, then your command would be:
+$ locate sample.txt
+
+9.  How to see the list of mounted devices on Linux?
+
+By running the following command:
+$ mount -l
+
+10. How to find the difference in two configuration files?
+
+You can use the diff command for this: 
+
+$ diff abc.conf xyz.conf
+
+
+11. Write a bash script to delete all the files in the current directory that contains the word “linux”. 
+
+for i in *3*
+  do
+    echo $i
+#    rm $i
+  done
+
+o/p run inside: inder@inder-Inspiron-14-3467:~/my_data/educational_content/python_projects/interview_programs/python$
+13_filter_datframe
+23_replace_in_numpy_array.py
+30_magna1.py
+31_magna_fibnocci.py
+numpy_1d_2d_3d.py
+
+12. How would you create a text file without opening it?
+
+touch sample.txt
+
+13. How would you delete a directory in Linux?
+
+There are two commands that can be used to delete a directory in Linux.
+
+    rmdir
+
+$ rmdir <directory name>
+
+    rm -rf 
+
+$ rm -rf <directory name>
+
+Note: The command rm -rf should be used carefully because it will delete all the data without any warnings. 
+
+14. How would you schedule a task in Linux?
+
+<minute> <hour> <day> <month> <weekday> <command>
+
+Suppose you want to shut down the system at 6 pm today, then the command for this would be:
+0 18 * * 2 shutdown
+
+15. Suppose you try to delete a file using the rm command and the deletion fails. What could be the possible reason?
+
+    The path specified to the file or the file name mentioned might be wrong
+    The user trying to delete the file might not have permissions to delete the file.
+
+16. How to identify which shell you are using?
+
+Open the terminal and run:
+$ echo $SHELL
+
+17. How can you login to another system in your network from your system?
+
+SSH can be used for this. The Syntax is as follows:
+
+ssh <username>@<ip address>
+
+
+18. What is the export command used for?
+
+The export command is used to set and reload the environment variables. For example, if you want to set the Java path, then the command would be:
+
+$ export JAVA_HOME = /home/user/Java/bin
+
+
+19. How do you check if a particular service in running?
+
+$ service <servicename> status
+
+
+20. How do you check the status of all the services?
+
+$ service --status-all
+
+21. How do you start and stop a service?
+
+To start:
+$ service <servicename> start
+
+To stop:
+$ service <servicename> stop
+
+#  zombie process
+In the world of Linux, a zombie process refers to any process that is essentially removed from the system as 'defunct', but still somehow resides in the processor's memory as a 'zombie'.
+
+A zombie process is a process whose execution is completed but it still has an entry in the process table
+
+#  wait time of i/o process
+
+#. run time polymorphism with coding example, error handling, difference between throw and throws, final and finally
+
+
+

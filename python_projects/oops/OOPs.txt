@@ -1,6 +1,54 @@
  ========= OOPS in python ==============
 
-Python supports functional 
+Python supports 
+functional : The map(), filter() and reduce() functions bring a bit of functional programming to Python.
+	All three of these are convenience functions that can be replaced with List Comprehensions or loops, but provide a more elegant and 		short-hand approach to some problems.
+
+	# ==============  map()
+	# Without using lambdas
+	def starts_with_A(s):
+    		return s[0] == "A"
+
+	fruit = ["Apple", "Banana", "Pear", "Apricot", "Orange"]
+	map_object = map(starts_with_A, fruit)
+
+	print(list(map_object))  # [True, False, False, True, False]
+
+
+	With lamda:
+	
+	fruit = ["Apple", "Banana", "Pear", "Apricot", "Orange"]
+	map_object = map(lambda s: s[0] == "A", fruit)
+
+	print(list(map_object))  # [True, False, False, True, False]
+
+	
+
+	# ============== filter()  # We can use lambda also similar to above
+	
+
+	def starts_with_A(s):
+    		return s[0] == "A"
+
+	fruit = ["Apple", "Banana", "Pear", "Apricot", "Orange"]
+	filter_object = filter(starts_with_A, fruit)
+
+	print(list(filter_object))  # ['Apple', 'Apricot']
+
+	
+	# ============== reduce()
+	
+	reduce() works differently than map() and filter(). It does not return a new list based on the function and iterable we've passed. 		Instead, it returns a single value.
+
+	from functools import reduce
+
+	def add(x, y):
+    		return x + y
+
+	list = [2, 4, 7, 3]
+	print(reduce(add, list)) # 16  ie 2+4+6+3
+
+
 Procedural
 and OOP
 
@@ -13,7 +61,7 @@ class has
 # ====================
 Variable vs object
 
-eg a= 8 . Here a is an object of class in. WE can check using print(type(a))
+eg a= 8 . Here a is an object of class int. WE can check using print(type(a))
 
 lets say we have class name as computer. and we do comp= computer()
 THan comp is an object of class computer. 
@@ -289,11 +337,11 @@ four ways of implementing polymorphism:
 	respectively
 	one operator with multiple form. When we like to do any operation on obj, we have to use magic methods
 	 Operator will remain same, the operand will change. Ie. the type/number of parameter will be changed.
-		eg a= 2, b=6  => int().__add__(a, b)  # Type of parameter is int
-		   a= "2", b= "6" =>  str().__add__(a, b)  # Type of parameter is string
-                   a= 2, b= 6, c= 1 => int().__add__(a, b, c)   # The number of paramter is changed. But in all three operator is same.
+		eg a= 2, b=6  => a+b=> int().__add__(a, b)  # Type of parameter is int
+		   a= "2", b= "6" => a+b=> str().__add__(a, b)  # Type of parameter is string
+                   a= 2, b= 6, c= 1 => a+b=> int().__add__(a, b, c)   # The number of paramter is changed. But in all three operator is same.
 
-	NOte: Make a note, only same type of parameter can be used. WE ca not use string and int combined
+	NOte: Make a note, only same type of parameter can be used. WE can not use string and int combined
   
 	eg 
 	a= 5, b= 6
