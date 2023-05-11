@@ -1,0 +1,225 @@
+I am having overall  5 years and 5 months of experience and 4.5 years  in automtoive  infotainment testing.
+In manual I do the flashing of ECUs using ESYS Tool with the daily build(SW) and than test as per the test cases defined.
+Create JIRA ticket if defect comes. 
+Testcases incldues testing of infotainment functionality such as connectivity, Navigation, Entertainment  and generating DTCs(Diagnostic Trouble Code).
+DTCs includes→ Ethernet is connected or not
+		     Plant/Field/Engg mode of ECU
+		     DTC if AR CAM/DCS connected or not etc.
+		     i&k CAN
+DTCS can be checked from diagnostic tool known as EDIABAS.
+
+
+    • Having Working experience with 
+confluence,  pocket query and confi-forms to make wiki page more attractive and connect the wiki page with backend DB.
+    • python used to automate to have  backup for MYSQL database  and collect information from DB and gerrit repo which is useful in sharing report to the client
+    • Bash scripting is used to ssh to ECU data and get the useful data. Also to automate recovery procedure of ECU when it is broken.
+    • Jenkins used to run bash script so that I can have better visualization
+    • Ansible playbook used to install any package/ reboot/ ping/ copy files/ move files in multiple remote machine(around 400 machines)
+    • UI automation with Selenium in python
+
+
+
+
+
+
+
+==============
+
+Building of test environment setup for both manual and automation tests.
+For Manual need to flash the latest release build and do the test execution.
+But for automation everything will be taken care by job, I just need to prepare the setup with all dependency like:
+Install ubunto in small PC
+Create the hardware setup for developer to test their code which includes→ ECU, PC, PS, Ard+relay, Media-converter, and serial cables.
+Use git repo to add changes for the new worker like the security tokens and all the details like inventory number for all componenets connected, relay pin number to control through arduino, inventory group so that ansible will configure the changes To PC accordingly.
+use ansible playbook to configure PC. Used to setup environment like installing tools and crreating interfaces for USB cables by adding rules
+Run Jenkin job to verify if new worker is working as expected.
+If jenkin job is success  than put the worker in production so that it beocmes active and take the job automatically to run test testcases
+Grafana tool is there to monitor the status of worker if its online/offline/free/busy
+
+If there is any failure in ansible playbook, I have to figure out the failure and report BMW Team
+If there is failure in jenkin Job have to create JIRA ticket for recovering that failure. 
+Generally failure comes due to wrong connection in setup/ECU connected to it is not functional / test-case failure which is reported as bug for deveoper to fix the issue.
+
+If ECU is faulty than we have to check in ESYS/ EDIABAS 
+
+SW includes manual testing for infotainment like connectivity. confluence with pocket query and confi-forms, 
+python used to automate flashing the latest build, get the ECU details for configuration from EDIABAS,  creating backup for MYSQL database and gerrit repo for some files which is handy for me to collect inventory data(Every worker has some unique datas).
+Bash scripting is used to get ECU data which suppoed to be connecetd to worker
+Jenkins used just to run bash script so that I can have better visualization.
+Ansible→ plabooks are already created by BMW team, I am responsible to update if it stops working in between
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Updated
+
+
+I am having 4 years and 9 months of experience including both sw and hw field.
+
+HW includes making of complete test-rack with 7-8 ECUs and troubleshooting ECUs.
+It also includes making of standalone worker with just one ECU. Process what I do here is
+Install ubunto in small PC
+Create the hardware setup for developer to test their code which includes→ ECU, PC, PS, Ard+relay, Media-converter, and serial cables.
+Use git repo to add changes for the new worker 
+use ansible playbook to configure PC. Used to setup environment like installing tools and cfreating interfaces for USB cables by adding rules
+Run Jenkin job to verify if new worker is working as expected.
+//.
+//
+
+If there is any failure in ansible playbook, I have to figure out the failure and report BMW Team
+If there is failure in jenkin  Job have to create JIRA ticket for recovering that failure. 
+//
+
+I am having 4 years and 9 months of experience including both sw and hw field.
+
+HW includes making of complete test-rack with 7-8 ECUs and troubleshooting ECUs.
+It also includes making of standalone worker with just one ECU. Process what I do here is
+Install ubunto in small PC
+Create the hardware setup for developer to test their code which includes→ ECU, PC, PS, Ard+relay, Media-converter, and serial cables.
+Use git repo to add changes for the new worker 
+use ansible playbook to configure PC. Used to setup environment like installing tools and cfreating interfaces for USB cables by adding rules
+Run Jenkin job to verify if new worker is working as expected.
+
+
+If there is any failure in ansible playbook, I have to figure out the failure and report BMW Team
+If there is failure in jenkin  Job have to create JIRA ticket for recovering that failure. 
+Generally failure comes due to wrong connection in setup/ECU connected to it is not functional / test-case failure which is reported as bug for deveoper to fix the issue.
+
+If ECU is faulty than we have to check in ESYS/ EDIABAS 
+
+SW includes confluence with pocket query and confi-forms, 
+python used to automate my daily task like creating backup for MYSQL database and git repo for some files which is handy for me to collect inventory data(Every worker has some unique datas).
+Bash scripting is used to get ECU data which suppoed to be connecetd to worker
+Jenkins used just to run bash script so that I can have better visualization.
+Ansible→ plabooks are already created by BMW team, I am responsible to update if it stops working in between
+
+
+SW includes confluence with pocket query and confi-forms, 
+
+python used to automate my daily task like creating backup for MYSQL database and git repo for some files which is handy for me to collect inventory data(Every worker has some unique datas).
+Bash scripting is used to get ECU data which suppoed to be connecetd to worker
+Jenkins used just to run bash script so that I can have better visualization.
+Ansible→ plabooks are already created by BMW team, I am responsible to update if it stops working in between
+
+
+dkdhkwqdh/l
+
+Python dictionary
+{“devops”: [“jenkins”, “python”, “ansible”], “development”: [“java”, “selenium”, “confluence”], “hw”: {“setup”: “worker”}}
+
+json: vertical representation of dictionary
+
+{
+“devops”: 
+[
+“jenkins”, 
+“python”, 
+“ansible”
+], 
+“development”: 
+[
+“java”, “
+selenium”, 
+“confluence”
+],
+ “hw”: 
+{
+“setup”: “worker”
+}
+}
+
+YAML 
+
+
+devops: 
+
+- jenkins
+- python
+- ansible
+
+development: 
+
+- java
+- selenium
+- confluence
+
+ hw: 
+
+  setup: worker
+
+
+
+
+
+Json
+
+{
+  "bandName": "Metallica",
+  "genre": "Heavy Metal",
+  "active": "yes",
+  "bandMembers": {
+    "drums": "Lars Ulrich",
+    "guitarLead": "Kirk Hammet",
+    "guitarRythm": "James Hetfield",
+    "bass": "Cliff Burton"
+  },
+  "otherMembers": ["Jason Newsted",
+    "Robert Trujillo",
+    "Dave Mustaine",
+    "Ron McGovney"
+  ],
+  "Discography" : [
+    {"name":"Kill ’Em All","year":"1983"},
+    {"name":"Ride the Lightning","year":"“1984"},
+    {"name":"Master of Puppets","year":"“1986"},
+    {"name":"..And Justice for All","year":"“1988"}
+  ]
+}
+
+=============YAML ==
+bandName: Metallica
+genre: Heavy Metal
+active: 'yes'
+
+bandMembers:
+  drums: Lars Ulrich
+  guitarLead: Kirk Hammet
+  guitarRythm: James Hetfield
+  bass: Cliff Burton
+  
+otherMembers:
+  - Jason Newsted
+  - Robert Trujillo
+  - Dave Mustaine
+  - Ron McGovney
+  
+Discography:
+  - name: Kill ’Em All
+    year: '1983'
+  - name: Ride the Lightning
+    year: “1984
+  - name: Master of Puppets
+    year: “1986
+  - name: ..And Justice for All
+    year: “1988
+

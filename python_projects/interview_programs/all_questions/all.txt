@@ -1,4 +1,4 @@
-Vodafone, TCS, UST Global, MSYS, ARFY
+Vodafone, TCS, UST Global, MSYS, ARFY, ranstand, man truck and bus, crane, magna, Iris
 
 Vodafone
 
@@ -54,10 +54,35 @@ MSYS
 
 python-> map, lambda, zip, iterator, genrator, sorting without built in, slicing 2nd last item without -2
 		multihreading, operator overloading, self vs variable, object vs self, decorator,
+		filter. reduce
 
 api-> find status code of the request, and find the url
+
+
+# 
 
 
 ARFY 
 
 Just interaction-> no technical questions asked
+
+
+# CRane
+nested list, append, extend, class, reverse numbers without built in, 
+linux-> chmod, head, tail, ssh, scp, grep, 
+
+# Magna
+
+self, class, obj, variable, memory, decorator
+
+# Iris
+copy file from on folder to another
+interface DB with python-> all details like connection, fectching, inserting
+how can you call class which is in different python file.
+
+sorting, slicing
+
+# Man truck nad bus
+
+self, object, type vs isinstance, array vs list, jenkins, ci/cd, 
+Renaming multiples files using bash

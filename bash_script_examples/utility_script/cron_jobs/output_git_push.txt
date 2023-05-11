@@ -20,3 +20,14 @@ Untracked files:
 	python_projects/interview_programs/python/33_magna_Swap.py
 
 no changes added to commit (use "git add" and/or "git commit -a")
+[master f3a17c8] $Di 4. Apr 18:52:25 CEST 2023
+ 8 files changed, 508 insertions(+), 25 deletions(-)
+ rewrite bash_script_examples/utility_script/cron_jobs/output_git_push.txt (71%)
+ create mode 100644 python_projects/api_testing/API.txt
+ create mode 100644 python_projects/api_testing/api_automation/api_basics.py
+ create mode 100644 python_projects/interview_programs/python/30_magna1.py
+ create mode 100644 python_projects/interview_programs/python/31_magna_fibnocci.py
+ create mode 100644 python_projects/interview_programs/python/32_magna_info.txt
+ create mode 100644 python_projects/interview_programs/python/33_magna_Swap.py
+
+============== pushing done =======================

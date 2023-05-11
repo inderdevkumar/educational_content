@@ -1,4 +1,5 @@
- ========= OOPS in python ==============
+# 3000
+========= OOPS in python ==============
 
 Python supports 
 functional : The map(), filter() and reduce() functions bring a bit of functional programming to Python.
@@ -61,25 +62,75 @@ class has
 # ====================
 Variable vs object
 
-eg a= 8 . Here a is an object of class int. WE can check using print(type(a))
+Object (a.k.a. value): a "thing". Lists, dictionaries, strings, numbers,
+tuples, functions, and modules are all objects.
+"Object" defies definition because everything is an object in Python.
+
+Variable (a.k.a. name): a name used to refer to an object.
+
+Pointer (a.k.a. reference): describes where an object lives (often shown visually as an arrow)
+
+Equality: whether two objects represent the same data
+
+Identity: whether two pointers refer to the same object
+
+
+Equality compares objects and identity compares pointers.
+Python's == operator checks that two objects represent the same data (a.k.a. equality):
+
+>>> my_numbers = [2, 1, 3, 4]
+>>> your_numbers = [2, 1, 3, 4]
+>>> my_numbers == your_numbers
+True
+
+Python's is operator checks whether two objects are the same object (a.k.a. identity):
+
+>>> my_numbers is your_numbers
+False
+
+If two variables point to the same object:
+
+>>> my_numbers_again = my_numbers
+>>> my_numbers is my_numbers_again
+True
+
+IN depth details:
+eg a= 8 . Here a is name of object of object int. WE can check using print(type(a)) or isinstance(a, int)
 
 lets say we have class name as computer. and we do comp= computer()
 THan comp is an object of class computer. 
 
-So, conclusion from above is a variable assigned with built in class called as variable 
-and variable assigned with class we create called as object.
 
 
-THere is special memory called as heap memory to store object in particular address. FOr each object seperate address is allocated
-we can get it by: print(id(comp))
+# ========= Memory management =========================
+
+THere is special memory called as heap memory to store object in particular address.
+FOr each object seperate address is allocated
+we can get it by: print(id(object_name))
+
+Memory management in Python involves a private heap containing all Python 
+objects and data structures. The management of this private heap is ensured 
+internally by the Python memory manager. The Python memory manager has 
+different components which deal with various dynamic storage management aspects,
+ like sharing, segmentation, preallocation or caching.
+
+For example, integer objects are managed differently within the heap than strings,
+ tuples or dictionaries because integers imply different storage requirements and speed/space tradeoffs. 
+
+The management of the Python heap is performed by the interpreter
+itself and that the user has no control over it
+
+
+
 
 Size of an object-> depends on number of variables we have
 
-who allocated size to object, how much m/m to be given-> THis is done by constructor
+who allocated size to object, how much m/m to be given-> THis is done by constructor. Or python memory manager
 comp= Computer() -> This is constructor, which callls __init__() method called internally
 
 # ====  self ====
 
+self represent the instance(object) of the class.
 self is the object we are passing. Useful in accessing data in diff methods
 
 eg
@@ -117,6 +168,12 @@ Useful to store data
 2. class/static variables -> They are commmon for all. They are define outside init but inside class
 
 # == Namespace =================
+A namespace is a collection of currently defined symbolic names
+along with information about the object that each name references.
+You can think of a namespace as a dictionary in which the keys are the object names
+and the values are the objects themselves. 
+Each key-value pair maps a name to its corresponding object.
+
 two types:
 1, class namespace -> Where class variable are declared 
 2. instance namespace-> PLcae where instance bvariables are declared
@@ -132,7 +189,36 @@ Methos is used to define behaviour
 3. static method-> When we like to do something which is not depending on class variables/instance variables, we can use it. This is not 		related to class/ object. WE have to use @staticmethod decorator.
 
 
+eg:
+
+from datetime import date
+
+class Person:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+
+	@classmethod
+	def fromBirthYear(cls, name, year):
+		return cls(name, date.today().year - year)
+
+	@staticmethod
+	def isAdult(age):
+		return age > 18
+
+person1 = Person('mayank', 21)
+person2 = Person.fromBirthYear('mayank', 1996)
+
+
+
+print(person1.age)  	# 21
+print(person2.age)	# 25
+
+print(Person.isAdult(22))	# True
+
+
 # ========== Inner class =================
+
 Yes, we can do that.
 eg
 class Student:
@@ -153,13 +239,15 @@ class Student:
 	   self.cpu= "i5"
 	   self.cost= 12000
 
-	def show(self):
+	def show(self):  # Function name should be sam as above
 	   print(self.model, self.cpu, self.cost)
 
-s1= Student("Inder", 12)
-s1.show()
+s1= Student("Inder", 12)  # Inder 12
+
+s1.show()  # hp i5 12000
 
 # ============ Inheritance ==================
+Mechanism in which child/sub class can have all properties of parent class.
 
 Lets say we have 2 classes A and B. If B wanted to use all features of A. Than we can use inheritance.
 Just have to use like: class B(A)
@@ -582,3 +670,156 @@ obj.show()  => O/P is : CLass A
 
 obj2= B()
 obj2.show()   => O/P is : CLass B
+
+
+# ==========  Abstract class ==============
+
+
+
+
+
+
+
+
+
+
+
+
+# FAQ ===================
+
+Q1. What are the different types of datatypes in python?
+	list, tuple, string, set, dictionary
+
+Q2. How do you concatenate a string and integer? is it possible ?
+	YEs, 
+	x= "qwerty"
+	y= 6
+	add= x+ str(y)
+
+Q3. What is xpath ? How do you find an element ? what is the difference between absolute xpath and relative xpath?
+	can be used to navigate through elements and attributes in an XML document.
+
+Q4. What are different locators supported in selenium?
+	ID, NAME, XPATH, CSS_SELECTOR, CLASS, LINK_TEXT
+
+Q5. What is the difference between findelement and findelements?
+	find_element-> locate just one elemenet
+	find_element-> locate multiple elements and stored them in list
+
+Q6. What are the exceptions in selenium?
+	Timeout, nosuchelemet, elementnot interactable
+
+Q7. How do you select a value from dropdown in selenium?
+	using select
+
+Q8. How do you achieve synchronization? what are the differences between the synchronization ways?
+	wait
+
+Q9. What is the difference between break continue and pass?
+
+
+Q10. What is full join ?
+	Under SQL joins, Full Join is a keyword, which is used to select 
+	all records from the right table and also from the left table
+
+Q11. Write a Query to Find Second Highest Salary in SQL
+	The MIN() function returns the smallest value of the selected column.
+	The MAX() function returns the largest value of the selected column.
+
+	SELECT MAX(Price) AS SmallestPrice
+	FROM Products
+	WHERE Price < (SELECT MAX(Price) AS SmallestPrice
+	FROM Products);
+
+Q12. How to fetch 1st 5 records in sql?
+	SELECT TOP 5 * FROM Products;
+	or
+	SELECT * FROM Customers LIMIT 5;
+
+Q13. How do you copy a table in mysql?
+	SELECT * INTO new_table
+	FROM old_table;  # IN same db
+
+	SELECT * INTO new_table IN 'Backup.mdb'
+	FROM old_table;   # In another db
+
+Q14. How do you fetch unique elements from a column?
+	SELECT DISTINCT(Country) FROM Customers ;
+
+Q15. Write an SQL query to find names of employees start with ‘A’?
+	SELECT * FROM Customers
+	WHERE CustomerName LIKE "A%";
+
+Q16. How do you open a file and read repeating words from a file ?
+	with open("/home/inder/my_data/educational_content/python_projects/interview_programs/all_questions/python/file_operation/read_file_input.txt", "r") as file:
+
+    content= file.read()
+
+print(content)
+
+list1= content.split()
+dict1= {}
+print(list1)
+for item in list1:
+
+    if item in dict1.keys():
+        dict1[item]= dict1[item]+ 1
+    
+    else:
+        dict1[item]= 1
+
+for key, value in dict1.items():
+    if value > 1:
+        print(f"{key}-> {value}")
+	
+Q17. How do you generate random emails in python? gmail.com is constant
+	import random
+
+
+MAX_LEN = 12
+
+DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+LOCASE_CHARACTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
+                     'i', 'j', 'k', 'm', 'n', 'o', 'p', 'q',
+                     'r', 's', 't', 'u', 'v', 'w', 'x', 'y',
+                     'z']
+
+UPCASE_CHARACTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
+                     'I', 'J', 'K', 'M', 'N', 'O', 'P', 'Q',
+                     'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y',
+                     'Z']
+
+SYMBOLS = ['@', '#', '$', '%', '=', ':', '?', '.', '/', '|', '~', '>',
+           '*', '(', ')', '<']
+
+COMBINED_LIST = DIGITS + UPCASE_CHARACTERS + LOCASE_CHARACTERS + SYMBOLS
+
+# Select atlest once each
+
+rand_digit= random.choice(DIGITS)
+rand_upper = random.choice(UPCASE_CHARACTERS)
+rand_lower = random.choice(LOCASE_CHARACTERS)
+rand_symbol = random.choice(SYMBOLS)
+
+temp_pass =  rand_upper + rand_lower + rand_digit + rand_symbol
+
+# Our target is to make mixed string of 12 char. and from temp_pass only 4 is done. So remaing 8 char we can take from combined
+
+for i  in range(8):
+
+    temp_pass= temp_pass+ random.choice(COMBINED_LIST)
+
+print(temp_pass)
+
+remaining_gmail= "@gmail.com"
+
+overall= temp_p
+
+Q18. How do you generate random data / number in python ?
+	same as above, random.choice(list1)
+
+Q19. What is the difference between array and a list ?
+Add Answer
+Q20. How do you run a test suite using robotframework command line ?
+Add Answer
+Q21. If some data is not found on the page, do page refresh and how do you validate a data after page refresh in selenium?

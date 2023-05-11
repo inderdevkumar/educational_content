@@ -1,0 +1,236 @@
+
+
+# ========================  DEVOPS=============================================================
+
+# =============  Ansible ===================
+
+
+Devops
+SW development approach which involves CI, C Testing, CD, and C monitoring.
+
+Devops stage
+Version control(Source Code Management ie. Maintains diff versions of code)→ CI(Continous build ie . Validate, review, unit testing, integration testing)→ Cdelivery(Continous tresting ie. Deploying the build application to test servers, UAT testing )→ Cdeploy(DEploying the tested app to PROD setrver for release) and C monitoring all
+
+Version Control
+
+1. what is puppet?
+	1st configuration tool
+puppet→ salt deck→ chef → ansible(most used configuration tool) → Teraform(most useful in cloud automation)
+
+2. Ansible
+ simple code to manage huge infrastructure. It came with more focused in linux machine than also windows automation, cloud automation, network tool automation, database automation and so many other integration also came with ansible now.
+
+3. Use cases of automation
+    a. Any system automation(windows/linux)
+      setup webservices, database services, start the services, stop the services, retsrta  the services.
+   b. Change management
+c. WE can intergrate it with Jenkins
+
+4. Why ansible is preffered?
+
+Ansible is agentless
+	Target machines/services can accesed by using SSH for linux
+
+	In puppet/chef/salt deck→ they are having agent. In order to manage servers we have to install agent in all of them. For eg if we 100 servers than we have to install agent in all of them to manage, but in ansible no need to install, it uses existing connection for linnux it uses SSH, for window it used winrm and for cloud it will execute locally.
+
+No Databases
+	no complicated storage or databases 
+It has yaml, ini and text files where we have playbooks, inventory, 
+
+Ansible has so many modules to do particular task
+	It can use bash script, shell command, 
+
+5. How Ansible connect to server?(LInux/windows/cloud server)
+	For LINUX→ SSH
+	For Windows→ winrm
+	for cloud(AWS, Azure)→ API
+
+6. Architecure of ANSIBLE
+ 	
+	we create inventory file→ it will have all target info like IP address, un, pw, 
+	Ansible has lots of inbuilt module that suppose to do a particular task. For ex, for installing a package, restrating a servixce, 
+	we write playbook and we mention this is the host from inv file and we want to execute this modules on this host→ this will be task in playbook
+	and when playbook is run 
+	Than, ansible is going to create configuration, create python scripts/package and deliver to the destination lets say Linux server, execute there and returns the o/p.
+Incase, the destination is not operating system ie. cloud than it will create python package and execute locally.
+
+FYI: group of functiions→ module
+	group of modules→ package
+ 
+
+
+7. ansible ad-hoc?
+We can execute a module on our target in single line command. It calls shell
+ex. ansible -i path_of_inventory -m ping host_name
+      ansible -i path_of_inv -m service -a “name-httpd state-started enabled=yes” host_name --become
+
+8. Inventory file, parent group, children group variable in inventory?
+
+9. dictionray vs json vs yaml
+ 
+/home/inder/my_data/educational_content/python_projects/interview_programs/ansible
+
+10. Configuration management?
+    Its idempotent in nature→ If the sytsem is in same state its not going apply the change again. Ex 
+If u install any tool lets say httpd using ansible module than it will not re-install if both of them are in same state
+
+
+11. Playbook, how to check syntax is correct or not?
+     ansible-playbook path_of_playbook –syntax-check
+
+12 How to run playbooks
+ ansible-playbook ansible_playbook/playbook1.yml -i inventory_test_files/inventory2.txt
+
+13. How and where to find ansible modules?
+	ansible-doc -l  → Will get list of all modules
+	ansible-doc apt   → will get documentation of apt module
+
+14. CI/CD
+
+CD stands for continuous delivery, and CI stands for Continous Integration both are software development practices. 
+	CI
+    • is a development practice where the codes from each developers can be integrated into a shared repository.  
+    • It triggers the build for the early detection of bugs present in the code. 
+      
+      CD
+In CD, developers build software that can be released into production at any given time.
+
+CI/CD  pipeline is responsible for building codes, running tests, and deploying new software versions.
+
+15. Ansible Tower
+As we know ansible is good in managing huge infrastructure. Ansible tower helps in doing this
+To utilise Ansible, different users and groups require varying levels of access. In addition, we must integrate these tools with other third-party tools such as integration with SCM tools for Ansible playbooks, integration with ticketing tools to create tickets if any tasks fail or notify the user via email or messaging apps, and so forth. Ansible Tower is the only way to get these features, which aren’t available in Ansible.
+Ansible Dashboard: Ansible Dashboard displays job status in a graphical format, as well as information about recent job runs
+
+
+# ====================  Jenkins  ========================
+
+
+Devps cycle:
+PLanning→ Coding→ Build→ Testing→ RElease→ Drploy→ Operate→ Monitor
+
+Planning→ Tool used is JIRA
+Code→ Tool used is git(In every project multiple developers are working at the same time and to make them calloborate, track the changes done by whom and when and why)
+ Build→ Build automation process is done like packaging, compliling, code review, code analysis. Tool used is maven
+Testing→ WE write testcases and For automating testcases we genrally use selenium
+Release→ Jenkin is used, and with help of pipelines, t can interact to all other tools. Ie why its called heart of ci/cd process.
+Deploy→ Config management tool  like ansible is used
+MOnitor→ Grafana
+
+Asnible used in Deployment
+
+
+Ansible
+1. agentless or push based cm tool
+2. Follow master/slave architecture(One centeral VM is there and with that many slave nodes are connected
+3. Agent is only in master VM ie Controller will take care of deploying anything to the nodes connnected to it
+4. Making setup is easy, as we dont have to install agent in slave nodes
+5. Uses ssh to login to hosts
+
+saltstack
+1. agentless or push based cm tool
+2. Follow master/slave architectureOne centeral VM is there and with that many slave nodes are connected
+3. Agent is only in master VM ie Controller will take care of deploying anything to the nodes connnected to it
+4. Making setup is not as easy as ansible, as we dont have to install agent in slave nodes
+5. It dont use ssh, it uses minions ie why its complicated
+
+
+Chef 
+1. Agent based or pull based cm tool
+2. Follow master/slave architectureOne centeral VM is there and with that many slave nodes are connected
+3. Agent is available in both in master VM and salave nodes connected to it.  
+   Its responsibilty of Slave node to start communication with master 
+4. Making setup is difficult, as we  have to install agent in slave nodes
+
+
+puppet
+1. Agent based or pull based cm tool
+2. Follow master/slave architectureOne centeral VM is there and with that many slave nodes are connected
+3. Agent is available in both in master VM and salave nodes connected to it.
+   Its responsibilty of Slave node to start communication with master 
+4. Making setup is difficult, as we  have to install agent in slave nodes
+
+
+Jenkins
+Its heart of entire Devops pipeline. It is a Open source CI plugin based Tool. 
+
+Maven→ Its a build automation tool
+
+CI/CD Pipeline
+Version control(DEvelopers write their code in VC eg git) 
+Build→ This code is pulled by Jenkin and do 
+unit testing
+Deploying
+auto testing
+Deploy to production 
+And in every stage developer shout get notification if build has failed/sucees. So that devloper can take necessary action instantaously with less time ans less trouble.
+Above everything is automatically in continous manner.
+
+And than, once app is deployed we see, if our app is working as expected or not
+
+In general,
+CI/CD tool has 
+initial stage → code, commit, realted code
+CI pipeline→ Build, Unit Test, Integration Test
+CD Pipleline→ Review, Staging, Production
+
+
+
+
+
+Docker
+Its a container solution. WE create docker to make containers. We can not make container directly, we have to make image first and than by running image container is made. Image is made from docker file(Here only you define your code, OS u want u use, which library). Container is just a running instance of docker image. 
+Docker hub is repo where u can store your images.
+
+It plays very imp role in ci/cd pipeline. When our app is build, packaged  we use docker to containarize.
+
+
+
+
+# ================ Agile Model ==========
+
+It is iterative and icremental model where requirements keeps on changing
+Iterative means :
+Requirement→ DEveleop→ test→ give the working picece of sw to the customer
+
+Incremental Means
+New features will be keep on adding
+
+It is model that company should adopt/ follllow in order to give fast SW deleivery to the customer within short span of time. We should be flexible enough to handle any kind of requirement change, devlop those requirements, test thpose requirements.
+
+Goal is customer satisfaction
+
+Adavanatages:
+Requirement changes is allowd at any stage of development
+Releases will be very fast, may be weekly
+
+
+Artifactory
+
+ Files that conatin both source code and the resources that are used to compile them are called artifacts.
+It can be .tar.gz
+
+Artifactory repository
+Its a repository which can store multiple diff versions of artifacts.
+
+Uses:→ Roll back can be done easily, as all artifacts are already present in Repo.
+
+Lets say, artifact1 is stored  inside the repo than it goes for deploymeent.
+Artifact2 is also stored in repo and than it goes for deployment but somehow, artifact2 is having some major bugs and application got crash.  And customer need them.
+So instead of going to git or roll back for previous commit and check for root cause of error. We cab easily roll back by  deploying artifact1 as it already present in repo
+
+Sequence is:
+
+Version control tool→ CI(Build Tool)→ JFROG Artifactory→ Container/deployment
+
+
+JFROG Repository
+
+Its used to store artifacts. Used to download and manage deopendencies for our build tool
+
+
+
+
+
+
+
