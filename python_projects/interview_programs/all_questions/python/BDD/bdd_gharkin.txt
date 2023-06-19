@@ -1,0 +1,31 @@
+What is BDD in Python Behave?
+Behavior is Driven Development (BDD) is an extension of TDD (Test Driven Development) used for automated browser testing
+and framework used is-> PyTest
+
+
+Test Scenarios In BDD
+The main advantage of using BDD is that the language used in writing the test scenarios is simple in nature. 
+
+Scenarios in BDD indicates how a particular feature should behave depending on the input parameters supplied to the test. Irrespective of the BDD test framework being used, the overall format of a feature file still remains the same.
+
+
+Gherkin, written in simple lang. They can be well understood by technical as well as the non-technical crowd. 
+
+# BDD Scenarios and Feature Files In Gherkin
+Scenario: Title/Short Description
+    Given [A Precondition]
+    When [Some Event]
+    Then [Some Outcome]
+
+Suppose, you want to search for LambdaTest on the search engine DuckDuckGo, the test scenario will be,‘Performing search for LambdaTest’ on DuckDuckGo, and the user story will include the ideal usage of Gherkin keywords to achieve the end result.
+
+Feature: LambdaTest search
+Scenario: Search for LambdaTest on DuckDuckGo
+    Given I am on the DuckDuckGo homepage
+    When I enter search term as LambdaTest
+    Then Search results for LambdaTest should appear
+
+
+flow is:
+
+automation test case written in Gharkin-> Python method where actual functionality is coded.

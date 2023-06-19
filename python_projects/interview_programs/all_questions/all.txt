@@ -1,17 +1,21 @@
-Vodafone, TCS, UST Global, MSYS, ARFY, ranstand, man truck and bus, crane, magna, Iris
+Vodafone, TCS-> kaiser, UST Global, MSYS, ARFY, ranstand, man truck and bus, crane, magna, Iris, capgemini
 
-Vodafone
+
+# ============================
+Vodafone-> Rejected
 
 Ansible-> playbook to install service, run it and replace some string in its config file
 Git-> log, diff, cherrypick, commit id
 
 
-TCS
+# ============================
+TCS -> Selected
 
 Selenium-> xpath, siblings, precedings, pandas-> merge side wise, row wise, mysql with python
 
 
-UST Global
+# ===========================
+UST Global -> Rejected
 
 # Diff between append and extend
 list1= [1, 2,3]
@@ -50,7 +54,8 @@ obj= area(2, 2)
 obj.find_area()
 
 
-MSYS
+# =======================
+MSYS -> Rejected in 2nd round
 
 python-> map, lambda, zip, iterator, genrator, sorting without built in, slicing 2nd last item without -2
 		multihreading, operator overloading, self vs variable, object vs self, decorator,
@@ -59,30 +64,38 @@ python-> map, lambda, zip, iterator, genrator, sorting without built in, slicing
 api-> find status code of the request, and find the url
 
 
-# 
-
-
-ARFY 
+# ========================
+ARFY -> Selected
 
 Just interaction-> no technical questions asked
 
-
-# CRane
+# =======================
+CRane -> Rejecetd in 3rd round
 nested list, append, extend, class, reverse numbers without built in, 
 linux-> chmod, head, tail, ssh, scp, grep, 
 
-# Magna
+# =========================
+Magna-> DEclined as they asked to come PUne for 2nd round
 
 self, class, obj, variable, memory, decorator
 
-# Iris
+# ==========================
+Iris -> Rejecetd in 3rd round
 copy file from on folder to another
 interface DB with python-> all details like connection, fectching, inserting
 how can you call class which is in different python file.
 
 sorting, slicing
 
-# Man truck nad bus
+# ==========================
+Man truck nad bus -> Selected but no offer recieved
 
 self, object, type vs isinstance, array vs list, jenkins, ci/cd, 
 Renaming multiples files using bash
+
+# ===========================
+Capgemini -> JOined
+
+FRamework flow
+Fixtures, markers, decorators, OOPs concept
+

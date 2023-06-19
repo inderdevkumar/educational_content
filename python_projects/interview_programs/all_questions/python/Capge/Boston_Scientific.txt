@@ -1,0 +1,139 @@
+# Introduce yourself
+
+Task did:
+1. Automated diagnostic jobs through EDIABAS API-> 
+2. Automated different methods of flashing of ECUs
+3. Automated testcases for System functions and system managers team in automotive infortainment.
+4. Automated filling of forms in confluence
+5. Automated taking backup of MySQL database
+6. Automated the monthly sw audit of ECUs and publishing the data in confluence.
+7. Automated the collection of ECUs data.
+
+
+
+# 1 ========= What Is an Automation Framework? ==========================
+A test automation framework is just that — a framework from which you can automate tests.
+ They are often based on best practices and assumptions, along with elements such as libraries,
+ test data, and reusable modules. Test automation frameworks execute test scripts and are key to helping you scale your testing.
+
+
+Types of Automation Frameworks to Consider
+Not all automation frameworks are created equally. Six major automation frameworks to consider include:
+
+Linear Automation Framework
+Modular Driven Framework
+Behavior Driven Development(BDD) Framework --> We use this
+Data-Driven Framework
+Keyword-Driven Framework
+Hybrid Testing Framework
+
+
+# 2  =========== BDD ========================= ==============================================================
+
+What is BDD (Behavior Driven Development) Testing?
+BDD (Behavior-driven development) Testing is a technique of agile software development and is as an extension of TDD, i.e., Test Driven Development.
+ In BDD, test cases are written in a plain English that even non-programmers can read.
+
+In BDD, whatever you write must go into Given-When-Then steps. 
+
+# =========== Example: basic flow of bdd ================
+
+# ===================Feature file(This is in Gherkin language): bdd/scenarios/add.feature ==========
+ 
+Feature: Add
+  Sum of numbers
+
+  Scenario: As a user I want to sum 2 numbers
+  Given A number
+  And Another number
+  When I make the sum
+  Then The sum matches
+
+# ============== python file  bdd/test_add.py ==============
+
+from functools import partial
+from pytest import fixture
+from .add import add
+from pytest_bdd import (
+    scenario as bdd_scenario,
+    given,
+    when,
+    then,
+)
+
+scenario = partial(bdd_scenario, "add.feature")
+
+
+@scenario("As a user I want to sum 2 numbers")
+def test_add():
+    """ Add """
+
+
+@fixture
+def result():
+    return {}
+
+
+@given("A number")
+def number():
+    return 2
+
+
+@given("Another number")
+def another_number():
+    return 4
+
+
+@when("I make the sum")
+def when_sum(result, number, another_number):    
+    result['result'] = add(number, another_number)
+
+
+@then("The sum matches")
+def sum_matches(result, number, another_number):
+    assert result['result'] == (number + another_number)
+
+# =========== another python file: bdd/add.py=================
+
+def add(num1, num2):
+    return num1 + num2
+
+# ================ ini file: bdd/pytest.ini==============
+[pytest]
+bdd_features_base_dir = scenarios/
+
+# 3 =========== ========================= What Is PyWinAuto? ==============================================================
+PyWinAuto is combination of few python modules to automate Windows based GUI applications.
+This allows to interact with Windows apps using Mouse and Keyboard actions.
+
+PyWinAuto supports the following Windows technologies:
+
+Win32 controls through the Win32 API: MFC, VB6, VCL
+MS UI Automation: WinForms, WPF, Qt5, browsers, store apps
+
+# Steps to Be Followed ======
+
+Step 1: import library
+
+Step 2: Run the application which you want to automate
+
+Step 3: Define the main application window
+
+Step 4: Inspect the necessary GUI control elements ( Text fields , drop-down list, buttons etc.) using control identifiers
+
+Step 5: Perform the relevant action on that GUI control element
+
+Step 6: Analyze the results
+
+# 4 =========== ========================= OCR ==============================================================
+Optical character recognition (OCR) is a technology that recognizes text in images, such as scanned documents and photos.
+Python OCR is a technology that recognizes and pulls out text in images like scanned documents and photos using Python.
+ It can be completed using the open-source OCR engine Tesseract.
+
+# 5 ======================== opencv  ======================================
+OpenCV stands for Open-Source Computer Vision (Library). OpenCV is a library of programming functions mainly aimed at real-time computer vision. We can do image processing, machine learning, etc using OpenCV.
+OpenCV is a great tool for developers for the implementation of image processing and computer vision applications. It is open-source and has large community support for learning, tutorials, and contributions.
+
+# 6 ========================== SciPy ==========================================================================
+
+SciPy (pronounced "Sigh Pie") is an open-source software for mathematics, science, and engineering. It includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more.

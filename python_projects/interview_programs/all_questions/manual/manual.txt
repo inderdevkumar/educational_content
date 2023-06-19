@@ -1,0 +1,679 @@
+Manual testing questions
+
+1.When should you stop the testing process?
+The testing activity ends when the testing team completes the following :
+Test case execution
+The successful completion of a full test cycle after the final bug fix.
+Testing deadline
+The end date  if no critical or high-priority defects remain in the system of the validation stage 
+
+
+2.
+
+What do verification and validation mean in software testing?
+In software testing, verification is a process to confirm that product development is taking place as per the specifications and using the standard development procedures. The process comprises the following activities:
+    • Inspections 
+    • Reviews 
+    • Walk-throughs 
+    • Demos 
+Validation is a means to confirm that the developed product doesn’t have any bugs and is working as expected. It comprises the following activities:
+    • Functional testing 
+    • Non-functional testing 
+
+3.
+
+
+Define Black-box testing.
+It is a standard software testing approach that requires testers to evaluate the functionality of the software as per the business requirements.  Without any pre knowledge of sw
+
+
+4.
+
+What is a test plan and what does it include?
+A test plan stores all possible testing activities to ensure a quality product. It gathers data from the product description, requirement, and use case documents.
+The test plan document includes the following:
+    • Testing objectives ->
+    • Test scope ->
+    • Testing the frame 
+    • Environment ->
+    • Reason for testing  ->
+    • Criteria for entrance and exit 
+    • Deliverables ->
+    • Risk factors ->
+
+5.
+
+Is it possible to achieve 100% testing coverage? How would you ensure it?
+It’s considered not possible to perform 100% testing of any product. But you can follow the below steps to come closer.
+    • Set a hard limit on the following factors: 
+        ◦ Percentage of test cases passed ->
+        ◦ Number of bugs found ->
+    • Set a red flag if: 
+        ◦ Test budget is depleted 
+        ◦ Deadlines are breached 
+    • Set a green flag if: 
+        ◦ The entire functionality gets covered in test cases 
+        ◦ All critical and major bugs must have a ‘CLOSED’ status ->
+6.
+
+What are unit testing and integration testing?
+Unit testing has many names such as module testing or component testing.
+Many times, it is the developers who test individual units or modules to check if they are working correctly.
+Whereas, integration testing validates how well two or more units of software interact with each other.
+There are three ways to validate integration:
+    • Big Bang approach → check it
+    • Top-down approach → check it
+    • Bottom-up approach → check it
+      
+7.
+
+Can we do system testing at any stage?
+No. System testing should start only if all modules are in place and they work correctly. However, it should be performed before UAT (user acceptance testing).
+
+8.
+
+Mention the different types of software testing.
+Various types of Software Testing used by manual testers are as follows:
+    • Unit testing →  check it
+    • Integration testing →  check it
+    • Regression testing →  check it
+    • Shakeout testing →  check it
+    • Smoke testing →  check it
+    • Functional testing →  check it
+    • Performance testing 
+        ◦ Load testing →  check it
+        ◦ Stress testing →  check it
+        ◦ Endurance testing →  check it
+    •  White-box and Black-box testing →  check it
+    •  Alpha and Beta testing →  check it
+    • System testing →  check it
+
+9.
+
+What is the difference between a test driver and a test stub?
+The test driver is a section of code that calls a software component under test. It is useful in testing that follows the bottom-up approach.
+The test stub is a dummy program that integrates with an application to complete its functionality. It is relevant for testing that uses the top-down approach.
+For example:
+    1. Let’s assume a scenario where we have to test the interface between Modules A and B. We have developed only Module A. Here, we can test Module A if we have the real Module B or a dummy module for it. In this case, we call Module B as the test stub. 
+    2. Now, Module B can’t send or receive data directly from Module A. In such a scenario, we’ve to move data from one module to another using some external features called test driver. 
+
+
+10.
+
+What is agile testing and why is it important?
+Agile testing is a software testing process that evaluates software from the customers’ point of view. It is favorable as it does not require the development team to complete coding for starting QA. Instead, both coding and testing go hand in hand. However, it may require continuous customer interaction.
+
+
+11.
+
+What is the purpose of the end-to-end testing?
+End-to-end testing is a testing strategy to execute tests that cover every possible flow of an application from its start to finish. The objective of performing end-to-end tests is to discover software dependencies and to assert that the correct input is getting passed between various software modules and sub-systems.
+
+
+12.
+
+What will you do when a bug turns up during testing?
+When a bug occurs, we can follow the below steps.
+    • We can run more tests to make sure that the problem has a clear description. 
+    • We can also run a few more tests to ensure that the same problem doesn’t exist with different inputs. 
+    • Once we are certain of the full scope of the bug, we can add details and report it. 
+
+
+13.
+
+
+How do you test a product if the requirements are yet to be freezed?
+If the required specifications are not available for a product, then a test plan can be created based on the assumptions made about the product. But we should get all assumptions well-documented in the test plan.
+
+14.
+
+If a product is in the production stage and one of its modules gets updated, then is it necessary to retry?
+It is suggested to perform a regression testing and run tests for all the other modules as well. Finally, the QA should also carry out a system testing.
+15.
+
+Is there any difference between retesting and regression testing?
+Possible differences between retesting and regression testing are as follows:
+    • We perform retesting to verify the defect fixes. But, the regression testing assures that the bug fix does not break other parts of the application. 
+    • Regression test cases verify the functionality of some or all modules. 
+    • Regression testing ensures the re-execution of passed test cases. Whereas, retesting involves the execution of test cases that are in a failed state. 
+    • Retesting has a higher priority over regression. But in some cases, both get executed in parallel. 
+
+
+16.
+
+
+As per your understanding, list down the key challenges of software testing.
+Following are some of the key challenges of software testing:
+    • The lack of availability of standard documents to understand the application 
+    • Lack of skilled testers 
+    • Understanding the requirements: Testers require good listening and understanding capabilities to be able to communicate with the customers the application requirements. 
+    • The decision-making ability to analyze when to stop testing 
+    • Ability to work under time constraints 
+    • Ability to decide which tests to execute first 
+    • Testing the entire application using an optimized number of test cases 
+
+17.
+
+
+What are the different types of functional testing?
+Functional testing covers the following types of validation techniques:
+    • Unit testing 
+    • Smoke testing 
+    • UAT 
+    • Sanity testing 
+    • Interface testing 
+    • Integration testing 
+    • System testing 
+    • Regression testing 
+
+18.
+
+What are functional test cases and non-functional test cases?
+    • Functional testing: It is testing the ‘functionality’ of a software or an application under test. It tests the behavior of the software under test. Based on the requirement of the client, a document called a software specification or requirement specification is used as a guide to testing the application. 
+    • Non-functional testing: In software terms, when an application works as per the user’s expectation, smoothly and efficiently under any condition, then it is stated as a reliable application. Based on quality, it is very critical to test these parameters. This type of testing is called non-functional testing. 
+
+
+19.
+
+
+What do you understand by STLC?
+Software testing life cycle (STLC) proposes the test execution in a planned and systematic manner. In the STLC model, many activities occur to improve the quality of the product.
+The STLC model lays down the following steps:
+    1. Requirement Analysis 
+    2. Test Planning 
+    3. Test Case Development 
+    4. Environment Setup 
+    5. Test Execution 
+    6. Test Cycle Closure 
+
+20.
+
+In software testing, what does a fault mean?
+Fault is a condition that makes the software fail to execute while performing the considered function.
+
+21.
+
+Difference between Bug, Defect, and Error.
+Bug – A bug is a fault in the software that’s detected during testing time. They occur because of some coding error and leads a program to malfunction. They may also lead to a functional issue in the product. These are fatal errors that could block a functionality, results in a crash, or cause performance bottlenecks
+Defect – A defect is a variance between expected results and actual results, detected by the developer after the product goes live. The defect is an error found AFTER the application goes into production. In simple terms, it refers to several troubles with the software products, with its external behavior, or with its internal features.
+Error – An error is a mistake, misunderstanding, or misconception, on the part of a software developer. The category of developers includes software engineers, programmers, analysts, and testers. For example, a developer may misunderstand a design notation, or a programmer might type a variable name incorrectly – leads to an error. An error normally arises in software, it leads to a change the functionality of the program.
+
+
+
+22.
+
+How do severity and priority relate to each other?
+Severity: It represents the depth of a bug. It describes the application point of view.
+Priority: It specifies which bug should get fixed first. It defines the user’s point of view.
+
+
+23.
+
+List the different types of severity.
+The criticality of a bug can be low, medium, or high depending on the context.
+    • User interface defects – Low 
+    • Boundary-related defects – Medium 
+    • Error handling defects – Medium 
+    • Calculation defects – High 
+    • Misinterpreted data – High 
+    • Hardware failures – High 
+    • Compatibility issues – High 
+    • Control flow defects – High 
+    • Load conditions – High 
+
+
+24.
+
+What do you mean by defect detection percentage in software testing?
+Defect detection percentage (DDP) is a type of testing metric. It indicates the effectiveness of a testing process by measuring the ratio of defects discovered before the release and reported after the release by customers.
+For example, let’s say, the QA has detected 70 defects during the testing cycle and the customer reported 20 more after the release. Then, DDP would be: 70/(70 + 20) = 72.1% 
+
+
+25.
+What does defect removal efficiency mean in software testing?
+Defect removal efficiency (DRE) is one of the testing metrics. It is an indicator of the efficiency of the development team to fix issues before the release.
+It gets measured as the ratio of defects fixed to total the number of issues discovered.
+For example, let’s say, there were 75 defects discovered during the test cycle while 62 of them got fixed by the development team at the time of measurement. The DRE would be 62/75 = 82.6%
+Go through the Manual Testing Training to get a clear understanding of Weak AI and Strong AI.
+
+
+26.
+
+What is the average age of a defect in software testing?
+Defect age is the time elapsed between the day the tester discovered a defect and the day the developer got it fixed.
+While estimating the age of a defect, consider the following points:
+    • The day of birth of a defect is the day it got assigned and accepted by the development team. 
+    • The issues which got dropped are out of the scope. 
+    • Age can be both in hours or days. 
+    • The end time is the day the defect got verified and closed, not just the day it got fixed by the development team. 
+
+27.
+
+What is a Silk Test and why should you use it?
+Here are some facts about the Silk Test tool:
+    1. Skill tool is developed for performing regression and functionality testing of an application. 
+    2. It is used when we are testing Window-based, Java, web, and the traditional client/server applications. 
+    3. Silk Test helps in preparing the test plan and managing it to provide direct accessing of the database and validation of the field. 
+
+
+28.
+
+On the basis of which factors you would consider choosing automated testing over manual testing?
+Choosing automation testing over manual testing depends on the following factors:
+    1. Tests require periodic execution. 
+    2. Tests include repetitive steps. 
+    3. Tests execute in a standard runtime environment. 
+    4. Automation is expected to take less time. 
+    5. Automation is increasing reusability. 
+    6. Automation reports are available for every execution. 
+    7. Small releases like service packs include a minor bug fix. In such cases, executing the regression test is sufficient for validation. 
+
+29.
+
+
+Tell me the key elements to consider while writing a bug report.
+An ideal bug report should consist of the following key points:
+    • A unique ID 
+    • Defect description: A short description of the bug 
+    • Steps to reproduce: They include the detailed test steps to emulate the issue. They also provide the test data and the time when the error has occurred 
+    • Environment: Add any system settings that could help in reproducing the issue 
+    • Module/section of the application in which the error has occurred 
+    • Severity 
+    • Screenshots 
+    • Responsible QA: This person is a point of contact in case you want to follow-up regarding this issue 
+
+30.
+Is there any difference between bug leakage and bug release?
+Bug leakage: Bug leakage is something, when the bug is discovered by the end user/customer and missed by the testing team to detect while testing the software. It is a defect that exists in the application and not detected by the tester, which is eventually found by the customer/end user.
+Bug release: A bug release is when a particular version of the software is released with a set of known bug(s). These bugs are usually of low severity/priority. It is done when a software company can afford the existence of bugs in the released software but not the time/cost for fixing it in that particular version.
+
+31.
+
+What is the difference between performance testing and monkey testing?
+Performance testing checks the speed,  stability characteristics of a system. Performance is identified with achieving response time, throughput, and resource-utilization levels that meet the performance objectives for a project or a product.
+Monkey testing is a technique in software testing where the user tests the application by providing random inputs, checking the behavior of the application (or trying to crash the application).
+
+32.
+
+What are the benefits of test reports?
+Test reports will help us find the current status of a project and its quality. This can help stakeholders and customers take necessary actions. The complete documentation of test reports will help analyze different phases of the project.
+33. What is meant by latent defect?
+A latent defect is a hidden defect in an application/software, which cannot be identified by a user. However, this will not cause any failure to the application because the conditions will never be met.
+
+34.
+How does quality control differ from quality assurance?
+Quality Control vs Quality Assurance
+Quality Control
+Quality Assurance
+Quality control is a product-oriented approach of running a program to determine if it has any defects, as well as to make sure that the software meets all of the requirements put forth by the stakeholders.
+Quality assurance is a process-oriented approach that focuses on making sure that the methods, techniques, and processes used to create quality deliverables are applied correctly.
+
+35.
+
+
+
+
+
+
+
+
+
+
+35.
+What different types of manual testing are there?
+Different types of manual testing are;
+        ◦ Black Box Testing 
+        ◦ White Box Testing 
+        ◦ Unit Testing 
+        ◦ System Testing 
+        ◦ Integration Testing 
+        ◦ Acceptance Testing
+Q36
+. Explain the difference between alpha testing and beta testing.
+    • Alpha Testing – It is a type of software testing performed to identify bugs before releasing the product to real users or to the public. Alpha Testing is a type of user acceptance testing. 
+    • Beta Testing – It is performed by real users of the software application in a real environment. Beta Testing is also a type of user acceptance testing.
+37.
+
+What are the different levels of manual testing?
+Four levels of manual testing are:
+    • Unit testing – It is a way of testing the smallest piece of code referred to as a unit that can be logically isolated in a system. It is mainly focused on the functional correctness of the standalone module. 
+    • Integration Testing – It is a level of software testing where individual units are combined and tested to verify if they are working as they intend to when integrated. The main aim here is to test the interface between the modules. 
+    • System Testing – In system testing all the components of the software are tested as a whole in order to ensure that the overall product meets the requirements specified. There are dozens of types of system testing, including usability testing, regression testing, and functional testing.
+
+User Acceptance Testing – The final level, acceptance testing, or UAT (user acceptance testing), determines whether or not the software is ready to be released.
+
+38.
+
+What’s the difference between verification and validation in testing?
+Verification 
+Validation
+It is a static analysis technique. Here, testing is done without executing the code. Examples include – Reviews, Inspection, and walkthrough.
+It is a dynamic analysis technique where testing is done by executing the code. Examples include functional and non-functional testing techniques.
+
+
+39.
+What are the drawbacks of manual testing?
+De-merits of manual testing are:
+    • Highly susceptible to human error and are risky 
+    • Test types like load testing and performance testing are not possible manually 
+    • Regression tests are really time-consuming if they are done manually 
+    • Scope of manual testing is very limited when compared to automation testing 
+    • Not suitable in very large organizations and time-bounded projects 
+    • The cost adds up, so, it’s more expensive to test manually in the long run
+40.
+
+When should you opt for manual testing over automation testing?
+There are a lot of cases when manual testing is best suited over automation testing, like:
+    • Short-time projects: Automated tests are aimed at saving time and resources yet it takes time and resources to design and maintain them. For example, if you are building a small promotional website, it can be much more efficient to rely on manual testing. 
+    • Ad-hoc Testing: In ad-hoc testing, there is no specific approach. Ad-hoc testing is a totally unplanned method of testing where the understanding and insight of the tester is the only important factor. This can be achieved using manual testing. 
+    • Exploratory Test: This type of testing requires the tester’s knowledge, experience, analytical, logical skills, creativity, and intuition. So human involvement is important in exploratory testing. 
+    • Usability Testing: When performing usability testing, the tester needs to measure how user-friendly, efficient, or convenient the software or product is for the end-users. Human observation is the most important factor, so manual testing sounds seems more ap
+
+
+41…
+
+What is regression testing? When to apply it?
+“Testing of a previously tested program to ensure that defects have not been introduced or uncovered in unchanged areas of the software, as a result of the changes made is called Regression Testing.”
+
+A regression test is a system-wide test whose main purpose is to ensure that a small change in one part of the system does not break existing functionality elsewhere in the system. It is recommended to perform regression testing on the occurrence of the following events:
+    • When new functionalities are added 
+    • In case of change requirements 
+    • When there is a defect fix 
+    • When there are performance issues 
+    • In case of environment changes 
+    • When there is a patch fix
+
+
+42.
+What is the difference between system testing and integration testing?
+System Testing 
+Integration Testing
+System Testing tests the software application as a whole to check if the system is compliant with the user requirements
+Integration testing tests the interface between modules of the software application
+Involves both functional and non-functional testings like sanity, usability, performance, stress an load
+Only functional testing is performed to check whether the two modules when combined give the right outcome
+ It is high-level testing performed after integration testing
+It is low-level testing performed after unit testing
+
+43.
+
+Explain the defect life cycle.
+A defect life cycle is a process in which a defect goes through various phases during its whole lifetime. The cycle starts when a defect is found and ends when a defect is closed, after ensuring it’s not reproduced. Bug or defect life cycle includes the steps as shown in the below figure.
+
+44.
+What is the difference between Positive and Negative Testing?
+Positive Testing 
+Negative Testing
+Positive testing determines that your application works as expected. If an error is encountered during positive testing, the test fails
+Negative testing ensures that your application can gracefully handle invalid input or unexpected user behavior
+In this testing, tester always check for an only valid set of values 
+Testers apply as much creativity as possible and validating the application against invalid data
+
+45.
+
+Define what is a critical bug.
+A critical bug is a bug that has got the tendency to affect a majority of the functionality of the given application. It means a large piece of functionality or major system component is completely broken and there is no workaround to move further. Application cannot be distributed to the end client unless the critical bug is addressed.
+
+
+46.
+What is black box testing, and what are the various techniques?
+Black-Box Testing, also known as specification-based testing, analyses the functionality of a software/application without knowing much about the internal structure/design of the item. The purpose of this testing is to check the system’s functionality as a whole to ensure that it works correctly and meets user demands. Various black-box testing techniques are:
+    • Equivalence Partitioning 
+    • Boundary Value Analysis 
+    • Decision Table Based Technique 
+    • Cause-effect Graphing 
+    • Use Case Testing
+47
+What is white box testing, and what are the various techniques?
+White-Box Testing also known as structure-based testing, requires a profound knowledge of the code as it includes testing of some structural part of the application. The purpose of this testing is to enhance security, check the flow of inputs/outputs through application and to improve design and usability. Various white-box testing techniques are:
+    • Statement Coverage 
+    • Decision Coverage 
+    • Condition Coverage 
+    • Multiple Condition Coverage
+46.
+What if the software is so buggy it can’t really be tested at all? 
+Often testers encounter a bug that can’t be resolved at all. In such situations, the best bet is for testers to go through the process of reporting whatever bugs or blocking-type problems initially show up, with the focus being on critical bugs. Since this type of problem can cause severe problems such as insufficient unit testing or insufficient integration testing, poor design, improper build or release procedures, etc managers should be notified and provided with some documentation as evidence of the problem.
+
+
+46.
+What are the cases when you’ll consider to choose automated testing over manual testing?
+Automated testing can be considered over manual testing during the following situations:
+    • When tests require periodic execution 
+    • Tests include repetitive steps 
+    • Tests need to be executed in a standard runtime environment 
+    • When you have less time to complete the testing phase 
+    • When there is a lot of code that needs to be repeatedly tested 
+    • Reports are required for every execution
+
+47.
+
+What is the difference between smoke testing and sanity testing?
+Features
+Smoke Testing
+Sanity Testing
+System Builds
+Tests are executed on initial builds of software product
+Tests are done on builds that have passed smoke tests & rounds of regression tests 
+Motive of Testing
+To measure the stability of the newly created build to face off more rigorous testing
+To evaluate rationality & originality of the functionalities of software builds
+Subset of?
+Is a subset of acceptance testing
+Is a subset of regression testing
+Documentation
+Involves documentation and scripting work
+Doesn’t emphasize any sort of documentation
+
+Test Coverage
+Shallow & wide approach to include all the major functionalities without going too deep
+Narrow & deep approach involving detailed testing of functionalities and features
+Performed By?
+Executed by developers or testers
+Executed by testers
+
+47.
+
+What is the difference between static testing and dynamic testing?
+Static Testing
+Dynamic Testing
+Static Testing is a white box testing technique, it includes the process of exploring the records to recognize the imperfections in the very early stages of SDLC.
+Dynamic testing includes the process of execution of code and is done at the later stage of the software development lifecycle. It validates and approves the output with the expected results.
+Static Testing is implemented at the verification stage.
+Dynamic testing starts during the validation stage.
+Static testing is performed before the code deployment.
+Dynamic testing is performed after the code deployment
+The program’s code error detection and execution is not a concern in this type of testing.
+Execution of code is necessary for dynamic testing.
+
+50.
+Is it true that we can do system testing at any stage?
+In system testing, all the components of the software are tested as a whole in order to ensure that the overall product meets the requirements specified. So, no. The system testing must start only if all units are in place and are working properly. System testing usually happens before the UAT (User Acceptance Testing).
+
+51.
+What are some best practices that you should follow when writing test cases?
+Few guidelines that you need to follow while writing test cases are:
+    • Prioritize which test cases to write based on the project timelines and the risk factors of your application. 
+    • Remember the 80/20 rule. To achieve the best coverage, 20% of your tests should cover 80% of your application. 
+    • Don’t try to test cases in one attempt instead improvise them as you progress. 
+    • List down your test cases and classify them based on business scenarios and functionality. 
+    • Make sure test cases are modular and test case steps are as granular as possible. 
+    • Write test cases in such a way that others can understand them easily & modify if required. 
+    • Always keep end-users’ requirements in the back of your mind because ultimately the software designed is for the customer 
+    • Actively use a test management tool to manage stable release cycle. 
+    • Monitor your test cases regularly. Write unique test cases and remove irrelevant & duplicate test cases.
+
+52.
+
+Why is it that the boundary value analysis provides good test cases?
+The reason why boundary value analysis provides good test cases is that usually, a greater number of errors occur at the boundaries rather than in the center of the input domain for a test.
+In boundary value analysis technique test cases are designed to include values at the boundaries. If the input is within the boundary value, it is considered ‘Positive testing.’ If the input is outside of the boundary value, it is considered ‘Negative testing.’ It includes maximum, minimum, inside or outside edge, typical values or error values.
+Let’s suppose you are testing for an input box that accepts numbers from ’01 to 10′.
+ Using the boundary value analysis we can define three classes of test cases:
+    • Test cases with test data exactly as the input boundaries of input: 1 and 10 (in this case) 
+    • Values just below the extreme edges of input domains: 0 and 9 
+    • Test data with values just above the extreme edges of input domains: 2 and 11
+So the boundary values would be 0, 1, 2 and 9, 10, 11.
+53.
+
+.Why is it impossible to test a program thoroughly or 100% bug-free?
+It is impossible to build a software product that is 100% bug-free. You can just minimize the error, flaw, failure, or fault in a computer program or system that causes it to produce an incorrect or unexpected result. 
+Here are the two principal reasons that make it impossible to test a program entirely.
+    • Software specifications can be subjective and can lead to different interpretations. 
+    • A software program might require too many inputs, outputs, and path combinations to test.
+
+
+54.
+
+Can automation testing replace manual testing?
+Automation testing isn’t a replacement for manual testing. No matter how good automated tests are, you cannot automate everything. Manual tests play an important role in software development and come in handy whenever you have a case where you cannot use automation. Automated and manual testing each have their own strengths and weaknesses. Manual testing helps us understand the entire problem and more flexibly explore other angles of tests. On the other hand, automated testing helps save time in the long run by accomplishing a large number of surface-level tests in a short time.
+
+
+Automotive Interview questions
+
+1
+What is CAN and its uses? 
+Answer
+Controller–area network (CAN or CAN-bus) is a vehicle bus standard designed to allow microcontrollers   to communicate with each other within a vehicle without a host computer.
+3. CAN is a message-based protocol, designed specifically for automotive applications but now also used in other areas such as industrial automation and medical equipment.
+4. The Controller Area Network (CAN) bus is a serial asynchronous bus used in instrumentation applications for industries such as automobiles.
+USES:
+– More reliably, e.g., fewer plug-in connectors that might cause
+errors.
+– Wiring less complicated, more economic.
+– Easy to implement, changes, too.
+– Additional elements (e.g., control units) are easy to integrate.
+– Installation place exchangeable without electric problems.
+– Wire may be diagnosed.
+2.
+Why CAN is having 120 ohms at each end?
+Answer: To minimize the reflection reference, to reduce noise. To ensure that reflection does not cause communication failure, the transmission line must be terminated.
+3
+CAN logic what it follows?
+Answer: Wired AND logic
+
+4
+What is the speed of CAN?
+Answer: 40m @1Mbps and if the cable length increases will decrease the speed, due to RLC on the cable.
+5
+What is OBDII?
+Answer:  On-Board Diagnostics in an automotive context is a generic term referring to a vehicle’s self-diagnostic and reporting capability
+
+ 6
+Why Diagnostic Standards?
+Answer:  As systems got more complex the link between cause and symptom became less obvious. This meant that electronic systems had to have some level of self diagnosis and to communicate to the outside world. Initially many systems used their own protocols which meant that garages had to have a large number of tools – even to diagnose a single vehicle.
+
+
+8 Ethernet: https://support.ixiacom.com/sites/default/files/resources/whitepaper/ixia-automotive-ethernet-primer-whitepaper_1.pdf 
+Automotive Ethernet is a physical network that is used to connect components within
+a car using a wired network. 
+
+Automotive Ethernet Today
+oday, Ethernet is only used in cars for diagnostics and firmware updates. 100Base-Tx / 1GBit is the typical standard used. This standard does not meet automotive EMI requirements, but
+as this interface is only used for diagnostics while the car is in a service location (not in
+motion), an exception was made to allow its use. Cars that use Ethernet for diagnostics
+typically have an RJ45 connector that is used to connect to an external computer that runs
+the diagnostics software. Firmware upgrades on some cars are also done through this
+interface due to its much higher speed
+
+Automotive Ethernet in 2015
+By 2015, multiple car manufacturers will use Ethernet for cameras (driver assist) and
+video (infotainment) connections. The technology used is Broadcom’s BroadR-Reach
+PHY technology (which is now an open standard supported by the OPEN Alliance) which
+meets automotive EMI requirements. The move to Ethernet is happening quickly, as the
+competing technology that supports the required bandwidth (MOST and LVDS serial
+protocols) are proprietary and expensive. In this model, Ethernet is used in point-to-point
+links and is not yet being used as a shared medium for different interfaces (so a single link
+is only used for the connection to one video or camera
+9
+LIN, CAN, FlexRay, MOST: https://www.cselectricalandelectronics.com/difference-between-lin-can-most-flexray/ 
+
+FULL FORM
+LIN stands for Local Interconnect Network 
+    1. CAN stands for Controller Area Network 
+    2. MOST stands for Media Oriented System Transport 
+    3. FlexRay 
+
+
+Application
+The LIN protocol is used in a low-level communication system. It may be used to make a connection between sensors and controllers. For example: In the body of the vehicle. 
+    • CAN is used in soft real-time systems. For example: In engines, power trains, chassis, battery management systems, etc. 
+    • FlexRay is used in a hard real-time system. For example: In power trains, chassis. 
+    • MOST are used in media-related applications and control in automotive. For example: In multimedia, telematics, etc. 
+
+Architecture
+LIN has a single master and typically 2 to 10 slaves. 
+    • CAN has a multi-master and typically 10 to 40 nodes. 
+    • FlexRay has a multi-master and up to 64 nodes. 
+    • MOST also have multi-master and up to 64 nodes. 
+.Bus Access
+Bus it is a communication system that is responsible for data transfer.
+    • LIN has polling bus access 
+    • CAN has CSMA/CA bus access 
+    • FlexRay has TDMA/FTDMA bus access 
+    • MOST have TDM CSMA/CS bus access 
+Data Rate
+In LIN, the data rate is 20 Kbps. 
+    • In CAN, the data rate is 1 Mbps. 
+    • In FlexRay, the data rate is 10 Mbps. 
+    • In MOST, the data rate is 24 Mbps. 
+Physical Layer
+    • An electrical single wire is used in the LIN protocol. 
+    • The electrical dual wire is used in CAN protocol. 
+    • Dual wire – optical or electrical wire is used in FlexRay. 
+    • The optical fiber cable is used in MOST. 
+
+10
+CANOE
+CANoe is the comprehensive software tool for development, test and analysis of individual ECUs and entire ECU networks. It supports network designers, development and test engineers throughout the entire development process – from planning to system-level test. 
+
+The CANoe tool is a development and testing software developed by Vector Informatik GmbH. It is used primarily by automotive manufacturers and electronic control unit (ECU) suppliers for the development, analysis, simulation, testing, diagnostics, and start-up of ECU networks and individual ECUs used in automotive vehicles."
+
+infotainment and telematics testing 
+1
+What is Telematics? 
+Telematics is a method of monitoring an asset (car, truck, heavy equipment, or even ship) by using GPS and onboard diagnostics to record movements on a computerized map. It uses GPS and mobile devices to send and receive information that helps control remote objects, primarily in the automotive industry.
+
+2
+What is telematics devices? 
+A telematics device is an instrument, usually provided by your insurance company, that you install into your car. It records information about your driving behavior, including how fast you drive, how fast you brake, and the distance you drive.
+
+3
+What is telematics box? 
+A telematics box is a small device fitted to your car that records how you're driving. It is also known as black box insurance. This box measures various aspects of how, when and where you drive. This data can be used to calculate a personalised renewal quote, or in services like the Accident Alert and Theft Recovery.
+4
+Infotainment
+The basis of infotainment involves the combination of entertainment and information, which may be obvious given the name “infotainment”. Common infotainment functions include GPS navigation, listening to music, and Bluetooth phone operations. More recently, infotainment systems have gained the ability to store cell phone related data when tethered by USB or Bluetooth. Infotainment systems also allow drivers to link their phones through integration software such as Apple CarPlay and Android Auto.
+
+5
+Temematics
+Vehicle telematics merge telecommunication and informatic functions. When comparing telematics and infotainment, the most notable difference is that telematics utilize two-way communication. The communication provides a platform to send and receive data. The exchange of data is necessary for features like vehicle location for navigation, collision reporting for police or insurance providers, and remote vehicle diagnostics. Telematic systems can be built-in (onboard) or aftermarket. Built-in or OEM telematics are commonly subscription based such as OnStar by GM. Companies are beginning to use aftermarket plug-in telematics to track their vehicles and how or where they are driven. The devices are plugged into and powered by the diagnostic port usually located in the driver’s footwell area. Insurance companies offer similar devices to track driver behavior to possibly yield a discount on premiums.
+Regardless of the type of system, infotainment or telematic, accessible data is potentially stored in the vehicle or in a cloud. The data is not only obtained for insurance discounts or safety related purposes, but also for incident related situations being investigated at a forensic capacity.
+
+
+
+Test Management tool
+JIRA
+It’s cost-effective
+
+
+
+
+
+
+
+
+1
+
+Objective
+you will be working within a development team with SW testing as main focus or in an independent verification team focusing on feature test on system level. 
+You'll support different Test Activities like regression testing, System Testing and End of Line Testing and Vehicle Testing. 
+Required: 4+ years of experience in Automotive Testing Solid understanding of testing SW systems in at least one field (embedded, backend or mobile). 
+Good knowledge of infotainment and telematics testing and test management tools. 
+Proficiency in testing Infotainment systems and In-Car Testing. 
+Excellent knowledge in Vector CANoe and vehicle communication protocol like Ethernet, CAN, LIN.
+
+
+
+
+
+

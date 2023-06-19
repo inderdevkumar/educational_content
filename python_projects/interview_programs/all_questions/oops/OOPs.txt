@@ -26,7 +26,8 @@ functional : The map(), filter() and reduce() functions bring a bit of functiona
 	
 
 	# ============== filter()  # We can use lambda also similar to above
-	
+	The filter() function is used to generate an output list of values that return true
+ when the function is called. It has the following syntax:
 
 	def starts_with_A(s):
     		return s[0] == "A"
@@ -675,6 +676,64 @@ obj2.show()   => O/P is : CLass B
 # ==========  Abstract class ==============
 
 
+
+An abstract class can be considered as a blueprint for other classes.
+It allows you to create a set of methods that must be created within any child classes built from the abstract class.
+ A class which contains one or more abstract methods is called an abstract class.
+ An abstract method is a method that has a declaration but does not have an implementation. 
+
+
+eg:
+
+# Python program showing
+# abstract base class work
+
+from abc import ABC, abstractmethod
+
+class sides(ABC):
+
+	@abstractmethod
+	def my_sides(self):
+		pass
+
+class Triangle(sides):
+
+	# overriding abstract method
+	def my_sides(self):
+		print("I have 3 sides")
+
+class Pentagon(sides):
+
+	# overriding abstract method
+	def my_sides(self):
+		print("I have 5 sides")
+
+class Hexagon(sides):
+
+	# overriding abstract method
+	def my_sides(self):
+		print("I have 6 sides")
+
+class Quadrilateral(sides):
+
+	# overriding abstract method
+	def my_sides(self):
+		print("I have 4 sides")
+
+# Driver code
+R = Triangle()
+R.my_sides()
+
+K = Quadrilateral()
+K.my_sides()
+
+R = Pentagon()
+R.my_sides()
+
+K = Hexagon()
+K.my_sides()
+
+# =================================================
 
 
 

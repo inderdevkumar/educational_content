@@ -1,0 +1,5 @@
+GUI automation is the process of simulating mouse and keyword actions on windows.
+
+MOst automation tools are based wither on the co-ordinates of the controls oe the text they contain
+
+pyAUTOGUI, pywin32
